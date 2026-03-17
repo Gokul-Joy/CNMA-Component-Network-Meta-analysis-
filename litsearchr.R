@@ -58,24 +58,31 @@ cutoffs <- find_cutoff(
 
 suggested_keywords <- get_keywords(reduce_graph(network, cutoff_strength = cutoffs[1])) 
 
+
 # 8. MANUALLY REVIEW KEYWORDS
+# Review 'suggested_keywords' in your console and assign the relevant ones to a vector.
 approved_keywords <- c("pancreatic cancer", "immune checkpoint inhibitor") 
 
-# 9. Expand terms via shared stems
-# Note: get_similar no longer needs a 'dictionary' object, just your list of keywords.
-similar_terms <- get_similar(all_keywords, terms = approved_keywords)
+# (The get_similar function is deprecated; manually add any extra terms you want here)
 
 # 10. Group Concepts and Write Final Search
+# Create lists grouping your final selected terms by concept.
 concept_1_disease <- c("pancreatic cancer", "pancreatic ductal adenocarcinoma", "pdac")
 concept_2_ici <- c("immune checkpoint inhibitor", "pembrolizumab", "nivolumab")
 
 my_concepts <- list(concept_1_disease, concept_2_ici)
 
+# Write the final Boolean search string. 
+# stemming = TRUE will automatically handle root word expansion for you!
 final_search_string <- write_search(
   groupdata = my_concepts,
   languages = "English", 
   exactphrase = TRUE, 
-  stemming = TRUE 
+  stemming = TRUE,
+  closure = "left"  # <--- explicitly define this to bypass the bug!
 )
 
+
+
+# Print the final string to copy and paste into your database!
 cat(final_search_string)
