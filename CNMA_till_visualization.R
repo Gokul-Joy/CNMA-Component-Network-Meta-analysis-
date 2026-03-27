@@ -8,6 +8,7 @@
 # install.packages("BiocManager")
 #BiocManager::install("ComplexHeatmap")
 
+
 library(netmeta)
 library(readxl)
 library(dplyr)
@@ -21,7 +22,7 @@ library(circlize)
 # SECTION 2: LOAD & INSPECT DATA
 # ============================================================
 
-df <- read_excel("7paper_complete_v3.xlsx")   # <-- change to your actual filename
+df <- read_excel("7paper_complete_v3.xlsx")
 
 str(df)
 head(df)
@@ -73,38 +74,31 @@ pw_ORR <- pairwise(
 head(pw_ORR)
 
 # ============================================================
-# SECTION 5: FIT STANDARD NMA (baseline — disconnected islands)
+# SECTION 5: INSPECT DISCONNECTED NETWORK STRUCTURE
 # ============================================================
-# NOTE: This will show a DISCONNECTED network — that is expected
-# and correct for your data. This graph proves WHY standard NMA
-# fails and CNMA with discomb() is needed.
+# netconnection() is specifically designed to map disconnected
+# networks — use this INSTEAD of netmeta() for your data
 
-nma_ORR <- netmeta(
-  TE      = TE,
-  seTE    = seTE,
+nc <- netconnection(
   treat1  = treat1,
   treat2  = treat2,
   studlab = studlab,
-  data    = pw_ORR,
-  sm      = "OR",
-  random  = TRUE
-  # NOTE: No ref = "" set here intentionally —
-  # in a disconnected network there is no single
-  # common reference arm across all trials
+  data    = pw_ORR
 )
 
-summary(nma_ORR)
+print(nc)
+# This will show you the 6 separate sub-networks —
+# confirm which trials fall into which island
 
 # ============================================================
-# SECTION 6: VISUALIZATION 1 — STANDARD NETWORK DIAGRAM
+# SECTION 6: VISUALIZATION 1 — NETWORK DIAGRAM
 # ============================================================
-# WHAT TO EXPECT: You will see disconnected "islands" —
-# isolated trial pairs with no connecting edges between them.
-# This is the visual proof that standard NMA is impossible
-# and discomb() CNMA is required.
+# netgraph() works directly on the netconnection object
+# It will show the disconnected islands — which is exactly
+# the visual proof you need for your paper
 
 netgraph(
-  nma_ORR,
+  nc,
   plastic      = FALSE,
   thickness    = "number.of.studies",
   points       = TRUE,
@@ -114,14 +108,16 @@ netgraph(
   cex          = 0.8,
   main         = "Standard Network Graph — ORR (Disconnected Network)"
 )
-
 # ============================================================
 # SECTION 7: VISUALIZATION 2 — CNMA UPSET PLOT
 # ============================================================
 # PURPOSE: Unlike the network graph above, this plot will
 # reveal the ICI component as the COMMON THREAD running
 # through all disconnected arms — visually justifying discomb()
-
+#==================================================================
+# Check what functions viscomp actually exports
+ls("package:viscomp")
+#==================================================================
 # Step 1: Extract all unique treatment arms
 all_treats <- unique(c(df$treat1, df$treat2))
 
