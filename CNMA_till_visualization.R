@@ -22,7 +22,7 @@ library(circlize)
 # SECTION 2: LOAD & INSPECT DATA
 # ============================================================
 
-df <- read_excel("7paper_complete_v4.1.xlsx")
+df <- read_excel("7paper_complete_v5.xlsx")
 
 str(df)
 head(df)
@@ -68,8 +68,21 @@ df$treat3 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat3))
 
 colSums(is.na(df[, c("studlab","treat1","treat2",
                      "n1","n2","event1_ORR","event2_ORR")]))
+#==========================================================================
+#==========================================================================
+# ============================================================
+#  NORMALIZE ALL + SPACING CONSISTENTLY
+# ============================================================
+# Ensures "A+B" and "A + B" are treated as identical
 
+df$treat1 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat1))
+df$treat2 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat2))
+df$treat3 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat3))
 
+# Verify ALL treatments look consistent
+df[, c("studlab", "treat1", "treat2", "treat3")]
+
+#==========================================================================
 #==========================================================================
 df <- df %>%
   mutate(
