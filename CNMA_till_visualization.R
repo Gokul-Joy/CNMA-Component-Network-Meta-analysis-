@@ -22,7 +22,7 @@ library(circlize)
 # SECTION 2: LOAD & INSPECT DATA
 # ============================================================
 
-df <- read_excel("7paper_complete_v4.xlsx")
+df <- read_excel("7paper_complete_v4.1.xlsx")
 
 str(df)
 head(df)
@@ -54,25 +54,55 @@ df$event1_ORR <- as.numeric(df$event1_ORR)
 df$event2_ORR <- as.numeric(df$event2_ORR)
 df$event1_DCR <- as.numeric(df$event1_DCR)
 df$event2_DCR <- as.numeric(df$event2_DCR)
+df$treat3     <- as.character(df$treat3)
+df$n3         <- as.numeric(df$n3)
+df$event3_ORR <- as.numeric(df$event3_ORR)
+df$event3_DCR <- as.numeric(df$event3_DCR)
+# Check for any inconsistent spacing around + signs
+# This normalizes ALL treatment names in one go
+df$treat1 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat1))
+df$treat2 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat2))
+df$treat3 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat3))
+
+
 
 colSums(is.na(df[, c("studlab","treat1","treat2",
                      "n1","n2","event1_ORR","event2_ORR")]))
 
+
+#==========================================================================
+df <- df %>%
+  mutate(
+    event2_ORR = ifelse(studlab == "Enzler 2024" & 
+                          event2_ORR == 0 & event3_ORR == 0,
+                        event2_ORR + 0.5, event2_ORR),
+    event3_ORR = ifelse(studlab == "Enzler 2024" & 
+                          event3_ORR == 0 & event2_ORR %in% c(0, 0.5),
+                        event3_ORR + 0.5, event3_ORR)
+  )
+
+# Verify the correction
+df[df$studlab == "Enzler 2024", 
+   c("studlab", "event1_ORR", "event2_ORR", "event3_ORR",
+     "n1", "n2", "n3")]
+#=========================================================================
+
+
 # ============================================================
 # SECTION 4: PAIRWISE TRANSFORMATION (ORR)
 # ============================================================
-
 pw_ORR <- pairwise(
-  treat   = list(treat1, treat2),
-  event   = list(event1_ORR, event2_ORR),
-  n       = list(n1, n2),
+  treat   = list(treat1, treat2, treat3),
+  event   = list(event1_ORR, event2_ORR, event3_ORR),
+  n       = list(n1, n2, n3),
   studlab = studlab,
   data    = df,
-  sm      = "OR"
+  sm      = "OR",
+  incr    = 0.5        # adds 0.5 to ALL zero cells automatically
 )
 
-head(pw_ORR)
-
+# Verify Enzler shows exactly 3 rows in pw_ORR
+pw_ORR[pw_ORR$studlab == "Enzler 2024", c("studlab","treat1","treat2","TE","seTE")]
 # ============================================================
 # SECTION 5: INSPECT DISCONNECTED NETWORK STRUCTURE
 # ============================================================
