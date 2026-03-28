@@ -3,7 +3,7 @@
 # ============================================================
 
 #install.packages(c("netmeta", "readxl", "dplyr", "UpSetR", "viscomp", 
- #                  "corrplot", "ComplexHeatmap", "circlize"))
+#                  "corrplot", "ComplexHeatmap", "circlize"))
 #if (!require("BiocManager", quietly = TRUE))
 # install.packages("BiocManager")
 #BiocManager::install("ComplexHeatmap")
@@ -22,7 +22,7 @@ library(circlize)
 # SECTION 2: LOAD & INSPECT DATA
 # ============================================================
 
-df <- read_excel("7paper_complete_v3.xlsx")
+df <- read_excel("7paper_complete_v4.xlsx")
 
 str(df)
 head(df)
@@ -210,3 +210,4 @@ Heatmap(
   column_title    = "Component Co-occurrence — CNMA Identifiability Check",
   rect_gp         = gpar(col = "grey80", lwd = 1)
 )
+
