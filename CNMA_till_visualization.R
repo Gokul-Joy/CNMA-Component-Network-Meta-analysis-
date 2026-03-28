@@ -97,8 +97,7 @@ pw_ORR <- pairwise(
   n       = list(n1, n2, n3),
   studlab = studlab,
   data    = df,
-  sm      = "OR",
-  incr    = 0.5        # adds 0.5 to ALL zero cells automatically
+  sm      = "OR"    # adds 0.5 to ALL zero cells automatically
 )
 
 # Verify Enzler shows exactly 3 rows in pw_ORR
