@@ -24,9 +24,7 @@ library(circlize)
 
 df <- read_excel("7paper_complete_v5.xlsx")
 
-str(df)
-head(df)
-colnames(df)
+
 
 # ============================================================
 # SECTION 3: RENAME COLUMNS & SET DATA TYPES
@@ -80,25 +78,9 @@ df$treat2 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat2))
 df$treat3 <- gsub("\\s*\\+\\s*", " + ", trimws(df$treat3))
 
 # Verify ALL treatments look consistent
-df[, c("studlab", "treat1", "treat2", "treat3")]
+#df[, c("studlab", "treat1", "treat2", "treat3")]
 
-#==========================================================================
-#==========================================================================
-df <- df %>%
-  mutate(
-    event2_ORR = ifelse(studlab == "Enzler 2024" & 
-                          event2_ORR == 0 & event3_ORR == 0,
-                        event2_ORR + 0.5, event2_ORR),
-    event3_ORR = ifelse(studlab == "Enzler 2024" & 
-                          event3_ORR == 0 & event2_ORR %in% c(0, 0.5),
-                        event3_ORR + 0.5, event3_ORR)
-  )
 
-# Verify the correction
-df[df$studlab == "Enzler 2024", 
-   c("studlab", "event1_ORR", "event2_ORR", "event3_ORR",
-     "n1", "n2", "n3")]
-#=========================================================================
 
 
 # ============================================================
@@ -110,7 +92,8 @@ pw_ORR <- pairwise(
   n       = list(n1, n2, n3),
   studlab = studlab,
   data    = df,
-  sm      = "OR"    # adds 0.5 to ALL zero cells automatically
+  sm      = "OR",
+  allstudies = TRUE
 )
 
 # Verify Enzler shows exactly 3 rows in pw_ORR
