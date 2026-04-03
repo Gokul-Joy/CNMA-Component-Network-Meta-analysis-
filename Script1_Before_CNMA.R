@@ -22,7 +22,7 @@ library(ggplot2)
 # SECTION 2: LOAD & INSPECT DATA
 # ============================================================
 
-df <- read_excel("7paper_complete_v5.xlsx")
+df <- read_excel("7paper_complete_v6.xlsx")
 
 # ============================================================
 # SECTION 3: RENAME COLUMNS & SET DATA TYPES
@@ -97,11 +97,11 @@ colSums(is.na(df[, c("studlab","treat1","treat2",
 df <- df %>%
   mutate(
     z_score = ifelse(studlab == "Renouf 2022", 1.645, 1.96),
-
+    
     # t2 vs t1
     TE_t2vt1   = log(hr_os_t2vt1),
     seTE_t2vt1 = (log(hr_os_upper_t2vt1) - log(hr_os_lower_t2vt1)) / (2 * z_score),
-
+    
     # t3 vs t1 (only populated for three-arm studies)
     TE_t3vt1   = log(hr_os_t3vt1),
     seTE_t3vt1 = (log(hr_os_upper_t3vt1) - log(hr_os_lower_t3vt1)) / (2 * z_score)
@@ -144,30 +144,49 @@ pw_DCR <- pairwise(
 pw_DCR[pw_DCR$studlab == "Enzler 2024", c("studlab","treat1","treat2","TE","seTE")]
 
 # ============================================================
-# SECTION 4C: PAIRWISE TRANSFORMATION (HR OS)
+# SECTION 4C: BUILD pw_OS MANUALLY (contrast-based format)
 # ============================================================
-# pairwise() is used here with pre-computed TE and seTE.
-# It handles:
-#   - The t2 vs t1 comparison (from hr_os columns)
-#   - The t3 vs t1 comparison (from hr_os_t3 columns)
-#   - The t3 vs t2 comparison (derived internally with correct
-#     multi-arm covariance — do NOT compute this manually)
+# pairwise() cannot handle pre-computed TE/seTE in wide format
+# reliably when list lengths are constrained by NA structure.
+# We build the contrast-based dataframe directly instead.
 #
-# NOTE: For two-arm studies, treat3/TE_t3vt1/seTE_t3vt1 will be NA
-# and pairwise() will simply produce one row for that study.
+# For two-arm studies: 1 row each (t2 vs t1)
+# For three-arm study (Enzler 2024): 3 rows
+#   Row 1 — t2 vs t1: directly from data
+#   Row 2 — t3 vs t1: directly from data  
+#   Row 3 — t3 vs t2: TE  = TE_t3vt1 - TE_t2vt1
+#                     seTE = sqrt(seTE_t3vt1^2 + seTE_t2vt1^2)
+#                     discomb() applies multi-arm correction internally
 
-pw_OS <- pairwise(
-  treat   = list(treat1, treat2, treat3),
-  TE      = list(TE_t2vt1, TE_t3vt1, NA),   # t2vt1, t3vt1; t3vt2 derived
-  seTE    = list(seTE_t2vt1, seTE_t3vt1, NA),
-  studlab = studlab,
-  data    = df,
-  sm      = "HR"
+two_arm <- df %>%
+  filter(is.na(hr_os_t3vt1)) %>%
+  transmute(
+    studlab = studlab,
+    treat1  = treat1,
+    treat2  = treat2,
+    TE      = TE_t2vt1,
+    seTE    = seTE_t2vt1
+  )
+
+e <- df %>% filter(!is.na(hr_os_t3vt1))
+
+three_arm <- bind_rows(
+  transmute(e, studlab, treat1, treat2,
+            TE = TE_t2vt1, seTE = seTE_t2vt1),
+  transmute(e, studlab, treat1,
+            treat2 = treat3,
+            TE = TE_t3vt1, seTE = seTE_t3vt1),
+  transmute(e, studlab,
+            treat1 = treat2,
+            treat2 = treat3,
+            TE   = TE_t3vt1 - TE_t2vt1,
+            seTE = sqrt(seTE_t3vt1^2 + seTE_t2vt1^2))
 )
 
-# Verify: three-arm study should show 3 rows; two-arm studies show 1 row
-pw_OS[pw_OS$studlab == "Enzler 2024", c("studlab","treat1","treat2","TE","seTE")]
-
+pw_OS <- bind_rows(two_arm, three_arm)
+pw_OS$studlab <- as.character(pw_OS$studlab)
+pw_OS$treat1  <- as.character(pw_OS$treat1)
+pw_OS$treat2  <- as.character(pw_OS$treat2)
 # ============================================================
 # SECTION 5: INSPECT DISCONNECTED NETWORK STRUCTURE (ORR)
 # ============================================================
@@ -227,25 +246,17 @@ netgraph(
 )
 
 # ============================================================
-# SECTION 7: UPSET PLOT — COMPONENT CO-OCCURRENCE
+# SECTION 7: UPSET PLOT — ORR (all studies)
 # ============================================================
-# Uses ORR treatment arms (same arms apply across all outcomes)
-
-ls("package:viscomp")
 
 all_treats     <- unique(c(df$treat1, df$treat2, df$treat3))
 all_treats     <- all_treats[!is.na(all_treats)]
 all_components <- unique(trimws(unlist(strsplit(all_treats, "\\+"))))
-all_components
 
 arm_data <- data.frame(arm = all_treats)
-
 for (comp in all_components) {
-  arm_data[[comp]] <- as.integer(
-    grepl(comp, arm_data$arm, fixed = TRUE)
-  )
+  arm_data[[comp]] <- as.integer(grepl(comp, arm_data$arm, fixed = TRUE))
 }
-
 upset_input <- arm_data[, -1]
 
 upset(
@@ -258,11 +269,41 @@ upset(
   text.scale       = 1.3,
   mb.ratio         = c(0.6, 0.4),
   mainbar.y.label  = "Number of Arms with Combination",
+  sets.x.label     = "Total Arms per Component",
+  mainbar.y.max    = NULL,
+  att.pos          = "top",
+  show.numbers     = "yes"
+)
+
+# ============================================================
+# SECTION 7B: UPSET PLOT — HR OS (only studies in pw_OS)
+# ============================================================
+
+all_treats_OS     <- unique(c(pw_OS$treat1, pw_OS$treat2))
+all_treats_OS     <- all_treats_OS[!is.na(all_treats_OS)]
+all_components_OS <- unique(trimws(unlist(strsplit(all_treats_OS, "\\+"))))
+
+arm_data_OS <- data.frame(arm = all_treats_OS)
+for (comp in all_components_OS) {
+  arm_data_OS[[comp]] <- as.integer(grepl(comp, arm_data_OS$arm, fixed = TRUE))
+}
+upset_input_OS <- arm_data_OS[, -1]
+
+upset(
+  upset_input_OS,
+  sets             = all_components_OS,
+  order.by         = "freq",
+  decreasing       = TRUE,
+  main.bar.color   = "forestgreen",
+  sets.bar.color   = "darkgreen",
+  text.scale       = 1.3,
+  mb.ratio         = c(0.6, 0.4),
+  mainbar.y.label  = "Number of Arms with Combination",
   sets.x.label     = "Total Arms per Component"
 )
 
 # ============================================================
-# SECTION 8: COMPONENT CO-OCCURRENCE HEATMAP
+# SECTION 8: CO-OCCURRENCE HEATMAP — ORR (all studies)
 # ============================================================
 
 n_comp <- length(all_components)
@@ -271,29 +312,9 @@ comat  <- matrix(0, nrow = n_comp, ncol = n_comp,
 
 for (arm in all_treats) {
   present <- trimws(unlist(strsplit(arm, "\\+")))
-  for (i in present) {
-    for (j in present) {
-      comat[i, j] <- comat[i, j] + 1
-    }
-  }
+  for (i in present) for (j in present) comat[i, j] <- comat[i, j] + 1
 }
 
-# --- Option A: corrplot ---
-comat_prop <- comat / max(comat)
-
-corrplot(
-  comat_prop,
-  method      = "color",
-  type        = "upper",
-  tl.col      = "black",
-  tl.cex      = 0.9,
-  addCoef.col = "black",
-  col         = colorRampPalette(c("white", "steelblue", "darkblue"))(200),
-  title       = "Component Co-occurrence — Check ICI Identifiability",
-  mar         = c(0, 0, 2, 0)
-)
-
-# --- Option B: ComplexHeatmap ---
 col_fun <- colorRamp2(
   c(0, max(comat) / 2, max(comat)),
   c("white", "steelblue", "darkblue")
@@ -304,12 +325,58 @@ Heatmap(
   name            = "# Arms",
   col             = col_fun,
   cell_fun        = function(j, i, x, y, width, height, fill) {
-    grid.text(comat[i, j], x, y,
-              gp = gpar(fontsize = 10, col = "black"))
+    grid.text(comat[i, j], x, y, gp = gpar(fontsize = 10, col = "black"))
   },
   cluster_rows    = FALSE,
   cluster_columns = FALSE,
   row_title       = "Component",
-  column_title    = "Component Co-occurrence — CNMA Identifiability Check",
+  column_title    = "Component Co-occurrence — ORR Network",
   rect_gp         = gpar(col = "grey80", lwd = 1)
 )
+
+# ============================================================
+# SECTION 8B: CO-OCCURRENCE HEATMAP — HR OS
+# ============================================================
+
+n_comp_OS <- length(all_components_OS)
+comat_OS  <- matrix(0, nrow = n_comp_OS, ncol = n_comp_OS,
+                    dimnames = list(all_components_OS, all_components_OS))
+
+for (arm in all_treats_OS) {
+  present <- trimws(unlist(strsplit(arm, "\\+")))
+  for (i in present) for (j in present) comat_OS[i, j] <- comat_OS[i, j] + 1
+}
+
+col_fun_OS <- colorRamp2(
+  c(0, max(comat_OS) / 2, max(comat_OS)),
+  c("white", "forestgreen", "darkgreen")
+)
+
+Heatmap(
+  comat_OS,
+  name            = "# Arms",
+  col             = col_fun_OS,
+  cell_fun        = function(j, i, x, y, width, height, fill) {
+    grid.text(comat_OS[i, j], x, y, gp = gpar(fontsize = 10, col = "black"))
+  },
+  cluster_rows    = FALSE,
+  cluster_columns = FALSE,
+  row_title       = "Component",
+  column_title    = "Component Co-occurrence — HR OS Network",
+  rect_gp         = gpar(col = "grey80", lwd = 1)
+)
+
+# corrplot versions if needed
+comat_OS_prop <- comat_OS / max(comat_OS)
+corrplot(
+  comat_OS_prop,
+  method      = "color",
+  type        = "upper",
+  tl.col      = "black",
+  tl.cex      = 0.9,
+  addCoef.col = "black",
+  col         = colorRampPalette(c("white", "forestgreen", "darkgreen"))(200),
+  title       = "Component Co-occurrence — HR OS Identifiability Check",
+  mar         = c(0, 0, 2, 0)
+)
+
