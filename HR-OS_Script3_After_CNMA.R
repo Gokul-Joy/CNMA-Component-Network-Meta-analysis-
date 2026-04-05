@@ -111,18 +111,16 @@ print(results_OS_full[!is.na(results_OS_full$iHR_random), ])
 # ============================================================
 # SECTION 14E: TREATMENT LEVEL ESTIMATES
 # ============================================================
-
 cat("\n======= TREATMENT ESTIMATES — HR OS =======\n")
+
+ref_col <- which(discomb_OS$trts == discomb_OS$reference.group)
+
 treat_OS <- data.frame(
   Treatment    = discomb_OS$trts,
-  HR_random    = round(exp(discomb_OS$TE.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
-  lower_random = round(exp(discomb_OS$lower.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
-  upper_random = round(exp(discomb_OS$upper.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
-  pval_random  = round(discomb_OS$pval.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)], 4)
+  HR_random    = round(exp(-discomb_OS$TE.random[, ref_col]), 3),
+  lower_random = round(exp(-discomb_OS$upper.random[, ref_col]), 3),  # ⚠️ swapped
+  upper_random = round(exp(-discomb_OS$lower.random[, ref_col]), 3),  # ⚠️ swapped
+  pval_random  = round(discomb_OS$pval.random[, ref_col], 4)          # unchanged
 )
 print(treat_OS)
 
