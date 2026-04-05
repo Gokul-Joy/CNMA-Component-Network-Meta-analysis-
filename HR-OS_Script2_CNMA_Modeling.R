@@ -51,12 +51,13 @@ discomb_OS$I2     # I-squared
 # iHR > 1 = increased hazard = harm.
 # NA = component not identifiable (backbone only).
 
+
 results_OS <- data.frame(
   Component  = discomb_OS$comps,
-  iHR        = exp(discomb_OS$Comp.random),
-  lower_95CI = exp(discomb_OS$lower.Comp.random),
-  upper_95CI = exp(discomb_OS$upper.Comp.random),
-  pvalue     = discomb_OS$pval.Comp.random
+  iHR        = exp(-discomb_OS$Comp.random),
+  lower_95CI = exp(-discomb_OS$upper.Comp.random),  # swap after negation
+  upper_95CI = exp(-discomb_OS$lower.Comp.random),  # swap after negation
+  pvalue     = discomb_OS$pval.Comp.random           # unchanged
 )
 
 cat("\n======= COMPONENT ESTIMATES — HR OS (Random Effects) =======\n")
@@ -71,13 +72,13 @@ print(results_OS[!is.na(results_OS$iHR), ])
 # iHR < 1 = reduced hazard = survival benefit
 results_OS_full <- data.frame(
   Component    = discomb_OS$comps,
-  iHR_random   = round(exp(discomb_OS$Comp.random), 3),
-  lower_random = round(exp(discomb_OS$lower.Comp.random), 3),
-  upper_random = round(exp(discomb_OS$upper.Comp.random), 3),
+  iHR_random   = round(exp(-discomb_OS$Comp.random), 3),
+  lower_random = round(exp(-discomb_OS$upper.Comp.random), 3),  # swap
+  upper_random = round(exp(-discomb_OS$lower.Comp.random), 3),  # swap
   pval_random  = round(discomb_OS$pval.Comp.random, 4),
-  iHR_common   = round(exp(discomb_OS$Comp.common), 3),
-  lower_common = round(exp(discomb_OS$lower.Comp.common), 3),
-  upper_common = round(exp(discomb_OS$upper.Comp.common), 3),
+  iHR_common   = round(exp(-discomb_OS$Comp.common), 3),
+  lower_common = round(exp(-discomb_OS$upper.Comp.common), 3),  # swap
+  upper_common = round(exp(-discomb_OS$lower.Comp.common), 3),  # swap
   pval_common  = round(discomb_OS$pval.Comp.common, 4)
 )
 cat("\n======= FULL COMPONENT TABLE — COMMON AND RANDOM =======\n")
