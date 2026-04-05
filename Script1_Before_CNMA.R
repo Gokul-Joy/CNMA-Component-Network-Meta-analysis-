@@ -98,12 +98,11 @@ df <- df %>%
   mutate(
     z_score = ifelse(studlab == "Renouf 2022", 1.645, 1.96),
     
-    # t2 vs t1
-    TE_t2vt1   = log(hr_os_t2vt1),
+    # ✅ FIXED: negative log(HR) so direction aligns with netmeta convention
+    TE_t2vt1   = -log(hr_os_t2vt1),
     seTE_t2vt1 = (log(hr_os_upper_t2vt1) - log(hr_os_lower_t2vt1)) / (2 * z_score),
     
-    # t3 vs t1 (only populated for three-arm studies)
-    TE_t3vt1   = log(hr_os_t3vt1),
+    TE_t3vt1   = -log(hr_os_t3vt1),
     seTE_t3vt1 = (log(hr_os_upper_t3vt1) - log(hr_os_lower_t3vt1)) / (2 * z_score)
   )
 
@@ -179,7 +178,7 @@ three_arm <- bind_rows(
   transmute(e, studlab,
             treat1 = treat2,
             treat2 = treat3,
-            TE   = TE_t3vt1 - TE_t2vt1,
+            TE   = TE_t3vt1 - TE_t2vt1,           # ✅ still correct after fix
             seTE = sqrt(seTE_t3vt1^2 + seTE_t2vt1^2))
 )
 
