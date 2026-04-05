@@ -5,7 +5,8 @@
 # It bridges isolated trials through shared components (e.g. ICI).
 # Additivity assumption cannot be statistically tested here —
 # must be justified clinically in your paper.
-
+# Convert to plain dataframe before passing to discomb()
+pw_OS <- as.data.frame(pw_OS)
 discomb_ORR <- discomb(
   TE        = TE,
   seTE      = seTE,
@@ -43,12 +44,16 @@ print(discomb_DCR)
 # ============================================================
 # SECTION 10B: FIT DISCOMB() — ADDITIVE CNMA (HR OS)
 # ============================================================
-# pw_OS was created by pairwise() using pre-computed log(HR)
-# and back-calculated seTE values.
-# Renouf 2022 already has its seTE correctly computed using
-# z = 1.645 (90% CI) — no further adjustment needed here.
-# pairwise() has already handled the three-arm covariance
-# correction for any multi-arm study (e.g. Enzler 2024).
+# pw_OS was built manually in contrast-based format:
+#   - Two-arm studies: 1 row each (t2 vs t1), TE and seTE
+#     back-calculated from published HRs and CIs.
+#   - Three-arm study (Enzler 2024): 3 rows.
+#     t2vt1 and t3vt1 taken directly from data.
+#     t3vt2 derived as TE_t3vt1 - TE_t2vt1, with
+#     seTE = sqrt(seTE_t3vt1^2 + seTE_t2vt1^2).
+#     discomb() applies multi-arm correction internally.
+# Renouf 2022 seTE uses z = 1.645 (90% CI).
+# All other studies use z = 1.96 (95% CI).
 
 discomb_OS <- discomb(
   TE        = TE,
@@ -64,7 +69,6 @@ discomb_OS <- discomb(
 
 summary(discomb_OS)
 print(discomb_OS)
-
 # ============================================================
 # SECTION 11: KEY RESULTS TO EXTRACT
 # ============================================================
@@ -127,12 +131,11 @@ results_DCR[!is.na(results_DCR$iOR), ]
 # Note: exp() of log(HR) gives back the Hazard Ratio.
 # HR < 1 = benefit (reduced hazard of death).
 # The component-level estimates here are incremental HRs (iHR).
-
 results_OS <- data.frame(
   Component  = discomb_OS$comps,
-  iHR        = exp(discomb_OS$Comp.random),
-  lower_95CI = exp(discomb_OS$lower.Comp.random),
-  upper_95CI = exp(discomb_OS$upper.Comp.random),
+  iHR        = exp(-discomb_OS$Comp.random),        # ✅ negate back
+  lower_95CI = exp(-discomb_OS$upper.Comp.random),  # ✅ note: upper ↔ lower swap
+  upper_95CI = exp(-discomb_OS$lower.Comp.random),  # ✅ because of negation
   pvalue     = discomb_OS$pval.Comp.random
 )
 print(results_OS)
