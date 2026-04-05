@@ -84,11 +84,13 @@ df <- df %>%
   mutate(
     z_score = ifelse(studlab == "Renouf 2022", 1.645, 1.96),
     
-    # ✅ FIXED: negative log(HR) so direction aligns with netmeta convention
-    TE_t2vt1   = -log(hr_os_t2vt1),
+    # log(HR) — no negation needed
+    # negative TE = experimental better than control (HR < 1)
+    # positive TE = experimental worse than control (HR > 1)
+    TE_t2vt1   = log(hr_os_t2vt1),
     seTE_t2vt1 = (log(hr_os_upper_t2vt1) - log(hr_os_lower_t2vt1)) / (2 * z_score),
     
-    TE_t3vt1   = -log(hr_os_t3vt1),
+    TE_t3vt1   = log(hr_os_t3vt1),
     seTE_t3vt1 = (log(hr_os_upper_t3vt1) - log(hr_os_lower_t3vt1)) / (2 * z_score)
   )
 
