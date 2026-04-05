@@ -117,10 +117,10 @@ ref_col <- which(discomb_OS$trts == discomb_OS$reference.group)
 
 treat_OS <- data.frame(
   Treatment    = discomb_OS$trts,
-  HR_random    = round(exp(-discomb_OS$TE.random[, ref_col]), 3),
-  lower_random = round(exp(-discomb_OS$upper.random[, ref_col]), 3),  # ⚠️ swapped
-  upper_random = round(exp(-discomb_OS$lower.random[, ref_col]), 3),  # ⚠️ swapped
-  pval_random  = round(discomb_OS$pval.random[, ref_col], 4)          # unchanged
+  HR_random    = round(exp(discomb_OS$TE.random[, ref_col]), 3),
+  lower_random = round(exp(discomb_OS$lower.random[, ref_col]), 3),
+  upper_random = round(exp(discomb_OS$upper.random[, ref_col]), 3),
+  pval_random  = round(discomb_OS$pval.random[, ref_col], 4)
 )
 print(treat_OS)
 
@@ -164,4 +164,5 @@ comparison_OS <- data.frame(
 
 cat("\n======= SENSITIVITY — COMMON VS RANDOM — HR OS =======\n")
 print(comparison_OS[!is.na(comparison_OS$iHR_random), ])
+
 
