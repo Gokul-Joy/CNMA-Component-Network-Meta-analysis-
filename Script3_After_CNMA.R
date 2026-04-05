@@ -1,6 +1,9 @@
 # ============================================================
 # SECTION 13: FOREST PLOTS — COMPONENT LEVEL ESTIMATES
 # ============================================================
+# Note: In netmeta >= 2.0, comb.random/comb.common were renamed
+# to random/common. Both versions shown — use whichever matches
+# your installed netmeta version. Check with: packageVersion("netmeta")
 
 # --- ORR ---
 forest(
@@ -83,8 +86,8 @@ ggplot(results_ORR_clean,
     caption = "Dashed line = no effect (OR = 1). Random effects model."
   ) +
   theme_classic() +
-  theme(plot.title = element_text(face = "bold", size = 13),
-        axis.text  = element_text(size = 11),
+  theme(plot.title      = element_text(face = "bold", size = 13),
+        axis.text       = element_text(size = 11),
         legend.position = "bottom")
 
 # --- DCR ---
@@ -109,8 +112,8 @@ ggplot(results_DCR_clean,
     caption = "Dashed line = no effect (OR = 1). Random effects model."
   ) +
   theme_classic() +
-  theme(plot.title = element_text(face = "bold", size = 13),
-        axis.text  = element_text(size = 11),
+  theme(plot.title      = element_text(face = "bold", size = 13),
+        axis.text       = element_text(size = 11),
         legend.position = "bottom")
 
 # --- HR OS ---
@@ -135,8 +138,8 @@ ggplot(results_OS_clean,
     caption = "Dashed line = no effect (HR = 1). HR < 1 favours treatment.\nRenouf 2022 SE derived from 90% CI (z = 1.645). Random effects model."
   ) +
   theme_classic() +
-  theme(plot.title = element_text(face = "bold", size = 13),
-        axis.text  = element_text(size = 11),
+  theme(plot.title      = element_text(face = "bold", size = 13),
+        axis.text       = element_text(size = 11),
         legend.position = "bottom")
 
 # ============================================================
@@ -155,6 +158,15 @@ cat("Number of components (c):", discomb_ORR$c, "\n")
 cat("Number of subnetworks (s):", discomb_ORR$s, "\n")
 cat("Number of unidentifiable components:", discomb_ORR$na.unident, "\n")
 cat("Unidentifiable components:\n"); print(discomb_ORR$comps.unident)
+
+cat("\n======= NETWORK STRUCTURE — DCR =======\n")
+cat("Number of studies (k):", discomb_DCR$k, "\n")
+cat("Number of pairwise comparisons (m):", discomb_DCR$m, "\n")
+cat("Number of treatments (n):", discomb_DCR$n, "\n")
+cat("Number of components (c):", discomb_DCR$c, "\n")
+cat("Number of subnetworks (s):", discomb_DCR$s, "\n")
+cat("Number of unidentifiable components:", discomb_DCR$na.unident, "\n")
+cat("Unidentifiable components:\n"); print(discomb_DCR$comps.unident)
 
 cat("\n======= NETWORK STRUCTURE — HR OS =======\n")
 cat("Number of studies (k):", discomb_OS$k, "\n")
@@ -196,6 +208,9 @@ cat("Q p-value:", discomb_OS$pval.Q.additive, "\n")
 # ============================================================
 # SECTION 14C: ADDITIVITY TEST
 # ============================================================
+# Compares additive CNMA vs standard NMA.
+# In disconnected networks this may return NA — expected.
+# Additivity must be justified clinically in your paper.
 
 cat("\n======= ADDITIVITY TEST — ORR =======\n")
 cat("Q additive:", discomb_ORR$Q.additive, "\n")
@@ -254,7 +269,7 @@ results_DCR_full <- data.frame(
 print(results_DCR_full)
 
 cat("\n======= COMPONENT ESTIMATES — HR OS (Random Effects) =======\n")
-# Note: iHR < 1 = reduced hazard = survival benefit
+# iHR < 1 = reduced hazard = survival benefit
 results_OS_full <- data.frame(
   Component    = discomb_OS$comps,
   iHR_random   = round(exp(discomb_OS$Comp.random), 3),
@@ -276,27 +291,41 @@ cat("\n======= TREATMENT ESTIMATES — ORR =======\n")
 treat_ORR <- data.frame(
   Treatment    = discomb_ORR$trts,
   OR_random    = round(exp(discomb_ORR$TE.random[,
-                   which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
+                                                 which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
   lower_random = round(exp(discomb_ORR$lower.random[,
-                   which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
+                                                    which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
   upper_random = round(exp(discomb_ORR$upper.random[,
-                   which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
+                                                    which(discomb_ORR$trts == discomb_ORR$reference.group)]), 3),
   pval_random  = round(discomb_ORR$pval.random[,
-                   which(discomb_ORR$trts == discomb_ORR$reference.group)], 4)
+                                               which(discomb_ORR$trts == discomb_ORR$reference.group)], 4)
 )
 print(treat_ORR)
+
+cat("\n======= TREATMENT ESTIMATES — DCR =======\n")
+treat_DCR <- data.frame(
+  Treatment    = discomb_DCR$trts,
+  OR_random    = round(exp(discomb_DCR$TE.random[,
+                                                 which(discomb_DCR$trts == discomb_DCR$reference.group)]), 3),
+  lower_random = round(exp(discomb_DCR$lower.random[,
+                                                    which(discomb_DCR$trts == discomb_DCR$reference.group)]), 3),
+  upper_random = round(exp(discomb_DCR$upper.random[,
+                                                    which(discomb_DCR$trts == discomb_DCR$reference.group)]), 3),
+  pval_random  = round(discomb_DCR$pval.random[,
+                                               which(discomb_DCR$trts == discomb_DCR$reference.group)], 4)
+)
+print(treat_DCR)
 
 cat("\n======= TREATMENT ESTIMATES — HR OS =======\n")
 treat_OS <- data.frame(
   Treatment    = discomb_OS$trts,
   HR_random    = round(exp(discomb_OS$TE.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
+                                                which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
   lower_random = round(exp(discomb_OS$lower.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
+                                                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
   upper_random = round(exp(discomb_OS$upper.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
+                                                   which(discomb_OS$trts == discomb_OS$reference.group)]), 3),
   pval_random  = round(discomb_OS$pval.random[,
-                   which(discomb_OS$trts == discomb_OS$reference.group)], 4)
+                                              which(discomb_OS$trts == discomb_OS$reference.group)], 4)
 )
 print(treat_OS)
 
@@ -310,6 +339,13 @@ identifiable_ORR     <- discomb_ORR$comps[!is.na(discomb_ORR$Comp.random)]
 not_identifiable_ORR <- discomb_ORR$comps[is.na(discomb_ORR$Comp.random)]
 cat("Identifiable:\n");     print(identifiable_ORR)
 cat("Non-identifiable:\n"); print(not_identifiable_ORR)
+
+cat("\n======= IDENTIFIABILITY REPORT — DCR =======\n")
+cat("Total components:", length(discomb_DCR$comps), "\n")
+identifiable_DCR     <- discomb_DCR$comps[!is.na(discomb_DCR$Comp.random)]
+not_identifiable_DCR <- discomb_DCR$comps[is.na(discomb_DCR$Comp.random)]
+cat("Identifiable:\n");     print(identifiable_DCR)
+cat("Non-identifiable:\n"); print(not_identifiable_DCR)
 
 cat("\n======= IDENTIFIABILITY REPORT — HR OS =======\n")
 cat("Total components:", length(discomb_OS$comps), "\n")
@@ -333,6 +369,8 @@ cat("This is expected and must be acknowledged as a limitation.\n")
 # ============================================================
 # SECTION 15: SENSITIVITY — COMMON VS RANDOM COMPARISON
 # ============================================================
+# Large differences between common and random estimates
+# indicate tau is meaningfully inflating uncertainty.
 
 # --- ORR ---
 comparison_ORR <- data.frame(
@@ -369,3 +407,4 @@ comparison_OS <- data.frame(
                               results_OS_full$iHR_common), 3)
 )
 print(comparison_OS[!is.na(comparison_OS$iHR_random), ])
+
