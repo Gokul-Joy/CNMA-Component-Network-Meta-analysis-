@@ -1,0 +1,657 @@
+﻿Title,Authors,DOI,DOI link,Venue,Citation count,Year,Filename,Treatment Regimen,Clinical Outcomes,Safety Profile,Study Identifiers,CNMA Component Mapping,Contrast-Level Data," Arm-Level Data",Contextual Data,"Supporting quotes for ""Treatment Regimen""","Supporting tables for ""Treatment Regimen""","Reasoning for ""Treatment Regimen""","Supporting quotes for ""Clinical Outcomes""","Supporting tables for ""Clinical Outcomes""","Reasoning for ""Clinical Outcomes""","Supporting quotes for ""Safety Profile""","Supporting tables for ""Safety Profile""","Reasoning for ""Safety Profile""","Supporting quotes for ""Study Identifiers""","Supporting tables for ""Study Identifiers""","Reasoning for ""Study Identifiers""","Supporting quotes for ""CNMA Component Mapping""","Supporting tables for ""CNMA Component Mapping""","Reasoning for ""CNMA Component Mapping""","Supporting quotes for ""Contrast-Level Data""","Supporting tables for ""Contrast-Level Data""","Reasoning for ""Contrast-Level Data""","Supporting quotes for "" Arm-Level Data""","Supporting tables for "" Arm-Level Data""","Reasoning for "" Arm-Level Data""","Supporting quotes for ""Contextual Data""","Supporting tables for ""Contextual Data""","Reasoning for ""Contextual Data"""
+"A multicenter, randomized phase II study of total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and SBRT, with or without losartan (L) and nivolumab (N) in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC)","Theodore S Hong, Beow Y Yeap, Nora K Horick, Jennifer Yon, -Li Wo, Colin D Weekes, Jill N Allen, Motaz Qadan, Paul Eliezer Oberstein, Rakesh K Jain, Lawrence Scott Blaszkowsky, Brian M Wolpin, Daniel A Laheru, Wells A Messersmith, Leilana Ly, Lorraine C Drapek, David Tsai Ting, Richard A Burkhart, Carlos Fernandez-Del Castillo, Alec Kimmelman, David P Ryan",,,,,,"A multicenter, randomized phase II study of total neoadjuvant therapy (TNT) with FOLFIRINOX (FFX) and SBRT, with or without losartan (L) and nivolumab (N) in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC).pdf","- Names of all drugs/agents in the combination: FOLFIRINOX (FFX), SBRT, losartan (L), nivolumab (N)
+- Doses and administration schedule for each agent:
+  - FOLFIRINOX: x 8 cycles
+  - SBRT: 6.6 Gy x 5
+  - Losartan: 50 mg qd throughout treatment and for 6 mo after surgery
+  - Nivolumab: 240 mg flat dosing q2 wks concurrent with SBRT and for 12 doses postoperatively
+- Route of administration: Not explicitly mentioned
+- Cycle length and duration: FOLFIRINOX for 8 cycles, followed by SBRT
+- Whether tested as monotherapy vs. combination: Combination therapy
+- Line of therapy: First-line (neoadjuvant therapy)
+- Any lead-in or sequential dosing protocols: Not mentioned","- Overall response rate (ORR) and individual response categories (CR, PR, SD, PD): Not mentioned
+- Disease control rate (DCR): Not mentioned
+- Progression-free survival (PFS): No significant difference observed
+- Overall survival (OS): No significant difference observed
+- Duration of response: Not mentioned
+- Any biomarker-based subgroup analyses: Not mentioned
+- Statistical significance and confidence intervals: Not mentioned",Not mentioned (the paper does not provide information on the safety profile of the treatments),"- Study Author & Year: Theodore S Hong, et al. (Year not specified)
+- Trial Name/Acronym: A multicenter, randomized phase II study of total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and SBRT, with or without losartan (L) and nivolumab (N) in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC)
+- Clinical Trial Identifier: NCT03563248","Arm 1 Full Regimen: FOL-FIRINOX (FFX) + SBRT
+Arm 1 Exact Components: FOL-FIRINOX (FFX), SBRT
+Arm 2 Full Regimen: FOL-FIRINOX (FFX) + SBRT + losartan (L)
+Arm 2 Exact Components: FOL-FIRINOX (FFX), SBRT, losartan (L)
+Arm 3 Full Regimen: FOL-FIRINOX (FFX) + SBRT + losartan (L) + nivolumab (N)
+Arm 3 Exact Components: FOL-FIRINOX (FFX), SBRT, losartan (L), nivolumab (N)",Not mentioned (the paper does not provide specific numerical data such as Hazard Ratios or confidence intervals for the outcomes),Not mentioned (the paper does not provide specific counts or sample sizes for the outcomes in each arm),Not mentioned (the paper does not provide the median follow-up time),"  - ""A prior phase II study demonstrated that losartan (L) as a TGF-beta inhibitor combined with FOLFIRINOX (FFX) and radiation in LA PDAC led to a 61% R0 resection rate.""
+  - ""We conducted a multi-center, randomized phase II trial to evaluate the effect of L and L+N in combination with TNT using FFX and SBRT.""
+  - ""Patients with BR or LA PDAC by NCCN criteria, pathologically confirmed, ACE/ARB naïve, were randomized to TNT with FFX and SBRT (Arm 1), TNT + L (Arm 2), and TNT+L+N (Arm 3), stratified by BR/LA.""
+  - ""TNT consisted of FFX x 8 followed by SBRT (6.6 Gy x 5).""
+  - ""L was given at 50 mg qd throughout TNT and for 6 mo after surgery.""
+  - ""N was given at 240 mg flat dosing q2 wks concurrent with SBRT and for 12 doses postoperatively.""
+  - ""All patients were recommended for surgical exploration after TNT.""",,"- The treatment regimen involves a combination of drugs and radiation therapy. The main components are FOLFIRINOX (FFX), SBRT (Stereotactic Body Radiation Therapy), losartan (L), and nivolumab (N).
+- FOLFIRINOX is administered for 8 cycles, followed by SBRT with a dose of 6.6 Gy x 5.
+- Losartan is given at a dose of 50 mg daily throughout the treatment and for 6 months after surgery.
+- Nivolumab is administered at a flat dose of 240 mg every 2 weeks, concurrent with SBRT and for 12 doses postoperatively.
+- The treatment is tested in combination, with different arms including FFX and SBRT alone (Arm 1), FFX and SBRT with losartan (Arm 2), and FFX and SBRT with both losartan and nivolumab (Arm 3).
+- The line of therapy is not explicitly mentioned, but given the context of neoadjuvant therapy, it is likely first-line treatment.
+- There is no mention of lead-in or sequential dosing protocols beyond the described regimen.","  - ""We did not observe effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate when added to TNT with FFX and SBRT for BR or LA PDAC.""
+  - ""Secondary endpoints were PFS, OS, and pCR rates and analyzed using two-sided tests with Arm 1 as the control arm.""
+  - ""The study was designed to compare the R0 resection rate on each of Arms 2 and 3 independently versus Arm 1 at a one-sided 0.10 level.""
+  - ""We conducted a multi-center, randomized phase II trial to evaluate the effect of L and L+N in combination with TNT using FFX and SBRT.""",,"- The paper describes a randomized phase II trial evaluating the effects of adding losartan (L) and nivolumab (N) to total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and SBRT in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC).
+- The primary focus was on the R0 resection rate, with secondary endpoints including progression-free survival (PFS), overall survival (OS), and pathologic complete response (pCR) rates.
+- The paper states that there were no observed effects of L and L+N on these secondary endpoints, indicating no significant differences in PFS, OS, or pCR rates among the treatment arms.
+- The paper does not provide specific numerical data for these outcomes, nor does it mention overall response rate (ORR), disease control rate (DCR), duration of response, or biomarker-based subgroup analyses.","  - ""We did not observe effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate when added to TNT with FFX and SBRT for BR or LA PDAC.""
+  - ""The lack of differences may reflect heterogeneity in surgical opinion as the decision for proceeding to surgery following TNT tends to be highly variable in a population with historically low resection rates.""",,"- The paper does not provide specific information on the safety profile of the treatments, such as treatment-related adverse events by grade, most common adverse events, serious adverse events, treatment discontinuations, dose reductions or delays due to toxicity, or treatment-related deaths.
+- The paper focuses on the efficacy outcomes like R0 resection rate, PFS, OS, and pCR rates, but does not mention safety data.
+- The conclusion about the lack of differences in efficacy outcomes does not address safety aspects.
+- There is no mention of tolerability assessment or safety conclusions in the provided text.","  - ""Research Sponsor: SU2C/Lustgarten Foundation Pancreatic Cancer Collective.""
+  - ""Clinical trial information: NCT03563248.""",,"- The title of the study provides the trial name/acronym as ""A multicenter, randomized phase II study of total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and SBRT, with or without losartan (L) and nivolumab (N) in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC)."" This is a detailed description of the trial but does not provide a specific acronym like ""CCTG PA.7.""
+- The clinical trial information is provided as ""NCT03563248,"" which is the clinical trial identifier.
+- The research sponsor is mentioned as ""SU2C/Lustgarten Foundation Pancreatic Cancer Collective,"" but this does not serve as a study identifier in the context of a trial name or acronym.","  - ""Patients with BR or LA PDAC by NCCN criteria, pathologically confirmed, ACE/ARB naïve, were randomized to TNT with FFX and SBRT (Arm 1), TNT + L (Arm 2), and TNT+L+N (Arm 3), stratified by BR/LA.""
+  - ""TNT consisted of FFX x 8 followed by SBRT (6.6 Gy x 5).""
+  - ""N was given at 240 mg flat dosing q2 wks concurrent with SBRT and for 12 doses postoperatively.""
+  - ""L was given at 50 mg qd throughout TNT and for 6 mo after surgery.""",,"- The paper describes a study involving total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and Stereotactic Body Radiation Therapy (SBRT), with or without losartan (L) and nivolumab (N).
+- Arm 1 involves TNT with FFX and SBRT, which are the full regimen components.
+- The exact components of Arm 1 are FOL-FIRINOX (FFX) and SBRT.
+- Arm 2 adds losartan (L) to the TNT with FFX and SBRT.
+- The exact components of Arm 2 are FOL-FIRINOX (FFX), SBRT, and losartan (L).
+- Arm 3 includes both losartan (L) and nivolumab (N) in addition to TNT with FFX and SBRT.
+- The exact components of Arm 3 are FOL-FIRINOX (FFX), SBRT, losartan (L), and nivolumab (N).","  - ""We did not observe effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate when added to TNT with FFX and SBRT for BR or LA PDAC.""
+  - ""Secondary endpoints were PFS, OS, and pCR rates and analyzed using two-sided tests with Arm 1 as the control arm.""
+  - ""The study was designed to compare the R0 resection rate on each of Arms 2 and 3 independently versus Arm 1 at a one-sided 0.10 level.""",,"- The paper mentions that there were no observed effects of losartan (L) and nivolumab (N) on several outcomes, including Progression-Free Survival (PFS) and Overall Survival (OS), when added to the treatment regimen. This suggests that the study did not find significant differences in these outcomes between the arms.
+- The study was designed to compare the R0 resection rate, but it also analyzed secondary endpoints like PFS and OS. However, the paper does not provide specific numerical data such as Hazard Ratios (HR) or confidence intervals for these outcomes.
+- The paper does not provide the exact numerical HR comparing Arm 1 vs Arm 2, nor does it provide the 95% CI Lower Bound or Upper Bound for these comparisons.","  - ""The study was designed to compare the R0 resection rate on each of Arms 2 and 3 independently versus Arm 1 at a one-sided 0.10 level.""
+  - ""We did not observe effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate when added to TNT with FFX and SBRT for BR or LA PDAC.""
+  - ""Secondary endpoints were PFS, OS, and pCR rates and analyzed using two-sided tests with Arm 1 as the control arm.""
+  - ""Patients with BR or LA PDAC by NCCN criteria, pathologically confirmed, ACE/ARB naïve, were randomized to TNT with FFX and SBRT (Arm 1), TNT + L (Arm 2), and TNT+L+N (Arm 3), stratified by BR/LA.""
+  - ""Intent-to-treat analysis was based on eligible patients who started therapy on protocol.""",,"- The paper describes a randomized phase II trial with three main arms: Arm 1 (TNT with FFX and SBRT), Arm 2 (TNT + L), and Arm 3 (TNT+L+N).
+- The study aimed to compare the R0 resection rate in Arms 2 and 3 against Arm 1, but the paper does not provide specific numbers or counts for these outcomes.
+- The paper mentions that there were no observed effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate, but again, no specific counts or sample sizes are provided.
+- The paper does not provide the raw 2x2 table counts or specific numbers for the outcomes in each arm, which are necessary for the ""Arm-Level Data"" requested.","  - ""The study was designed to compare the R0 resection rate on each of Arms 2 and 3 independently versus Arm 1 at a one-sided 0.10 level.""
+  - ""We did not observe effects of L and L+N on the R0 resection rate, PFS, OS, and pCR rate when added to TNT with FFX and SBRT for BR or LA PDAC.""
+  - ""Secondary endpoints were PFS, OS, and pCR rates and analyzed using two-sided tests with Arm 1 as the control arm.""
+  - ""Intent-to-treat analysis was based on eligible patients who started therapy on protocol.""",,"- The paper discusses a clinical trial involving total neoadjuvant therapy (TNT) with FOL-FIRINOX (FFX) and SBRT, with or without losartan (L) and nivolumab (N) in borderline resectable (BR) and locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC).
+- The primary endpoint was the R0 resection rate, and secondary endpoints included progression-free survival (PFS), overall survival (OS), and pathological complete response (pCR) rates.
+- The paper mentions that the study was designed to compare these outcomes across different treatment arms, but it does not provide specific data on the median follow-up time.
+- The lack of mention of median follow-up time in the provided text suggests that this information is not included in the paper."
+"A multicenter, randomized phase 2 study to establish combinations of CBP501, cisplatin and nivolumab for ≥3rd-line treatment of patients with advanced pancreatic adenocarcinoma","T Enzler, A Nguyen, J Misleh, V J Cline, M Johns, N Shumway, S Paulson, R Siegel, T Larson, W Messersmith, D Richards, J Chaves, E Pierce, M Zalupski, V Sahai, D Orr, S A Ruste, A Haun, T Kawabe",,,,,2024,"A multicenter, randomized phase 2 study to establish combinations of CBP501.pdf","- Names of all drugs/agents in the combination: CBP501, cisplatin, nivolumab
+- Doses and administration schedule for each agent: CBP501 (16 or 25 mg/m^2), cisplatin (60 mg/m^2), nivolumab (240 mg), administered every 3 weeks
+- Route of administration: Intravenous (IV)
+- Cycle length and duration: 21-day cycle, with a maximum of four cycles for combination therapy
+- Whether tested as monotherapy vs. combination: Tested as combination therapy
+- Line of therapy: ≥3rd-line treatment
+- Any lead-in or sequential dosing protocols: No lead-in; sequential dosing allowed for nivolumab alone after four cycles if progression-free","- Overall Response Rate (ORR): 22.2% in arm 1 (CBP(25)/CDDP/nivo), with 2 partial responses; no responses in other arms.
+- Disease Control Rate (DCR): 33.3% for CBP(25)/CDDP/nivo and CDDP/nivo arms; 11.1% for CBP(16)/CDDP/nivo; 0% for CBP(25)/CDDP.
+- Progression-Free Survival (PFS): Median PFS was 2.4 months for CBP(25)/CDDP/nivo, 2.1 months for CBP(16)/CDDP/nivo, 1.5 months for CBP(25)/CDDP, and 1.5 months for CDDP/nivo.
+- Overall Survival (OS): Median OS was 6.3 months for CBP(25)/CDDP/nivo, 5.3 months for CBP(16)/CDDP/nivo, 3.7 months for CBP(25)/CDDP, and 4.9 months for CDDP/nivo.
+- Duration of Response (DOR): Median DOR was 4.1 months for CBP(25)/CDDP/nivo.
+- No biomarker-based subgroup analyses or statistical significance and confidence intervals mentioned.","- Treatment-related adverse events by grade: 88% grade 1-2, 12% grade 3, no grade 4-5.
+- Most common adverse events: nausea (27%), diarrhea (12%), fatigue (42%), infusion-related reaction (58%), neutrophil count decreased (15%), decreased appetite (15%).
+- Serious adverse events: one case of acute kidney injury related to CBP501 and cisplatin.
+- Treatment discontinuations: one due to grade 2 infusion-related reaction.
+- Dose reductions or delays: managed by limiting cycles and temporary infusion interruptions.
+- Treatment-related deaths: none reported.
+- Tolerability assessment: overall well tolerated with manageable toxicities.
+- Differences in safety between monotherapy vs combination arms: higher incidence of infusion-related reactions in combination arms.",Not mentioned (the paper does not provide a specific trial name or acronym),"Arm 1 Full Regimen: CBP(25)/CDDP/nivo
+Arm 1 Exact Components: CBP501, cisplatin, nivolumab
+Arm 2 Full Regimen: CBP(16)/CDDP/nivo
+Arm 2 Exact Components: CBP501, cisplatin, nivolumab
+Arm 3 Full Regimen: CBP(25)/CDDP
+Arm 3 Exact Components: CBP501, cisplatin
+Arm 4 Full Regimen: CDDP/nivo
+Arm 4 Exact Components: cisplatin, nivolumab",Not mentioned (the paper does not provide hazard ratios or confidence intervals for contrast-level data),"- Arm 1 Total Sample Size (N): 9
+- Arm 1 Number of Events (ORR): 2
+- Arm 2 Total Sample Size (N): 9
+- Arm 2 Number of Events (ORR): 0
+- Arm 3 Total Sample Size (N): 9
+- Arm 3 Number of Events (ORR): 0
+- Arm 4 Total Sample Size (N): 9
+- Arm 4 Number of Events (ORR): 0
+- Adverse Events: Not provided in raw 2x2 table format",Not mentioned (the paper does not provide a specific median follow-up time in months),"  - ""CBP501 16 or 25 mg/m 2 (CBP(16) or CBP( 25)) was combined with 60 mg/m 2 cisplatin (CDDP) and 240 mg nivolumab (nivo), administered at 3-week intervals.""
+  - ""Patients were randomized 1:1:1:1 to (1) CBP(25)/ CDDP/nivo, (2) CBP( 16)/CDDP/nivo, (3) CBP(25)/CDDP and (4) CDDP/nivo, with randomization stratified by ECOG PS and liver metastases.""
+  - ""Drugs were administered by intravenous (IV) infusion on Day 1 of each 21-day cycle of treatment. CBP501 and cisplatin were administered concurrently, followed by nivolumab infusion.""
+  - ""No more than four cycles of combination therapy were administered but patients who remained progression-free after four cycles could receive up to an additional six cycles of single-agent nivolumab.""
+  - ""The limitation to four cycles of cisplatin combination therapy was made based on results from the precedent CBP17-01 study of cisplatin combination therapy which found that 3 of 6 patients who received more than 4 cycles developed increased creatinine, despite protocol-specified prehydration.""
+  - ""Per protocol, patients with pathologically confirmed stage IV PDAC who had received at least 2 lines of systemic therapy for metastatic disease, life expectancy ≥ 3 months, and ECOG performance status 0-1 were enrolled.""
+  - ""The primary objective was to determine the percentage of patients who remained progression-free at 3 months (3MPFS).""",,"- The treatment regimens tested in the study include combinations of CBP501, cisplatin, and nivolumab, as well as a combination of cisplatin and nivolumab without CBP501.
+- The doses for each agent are specified: CBP501 at either 16 or 25 mg/m^2, cisplatin at 60 mg/m^2, and nivolumab at 240 mg.
+- All drugs were administered intravenously (IV) on Day 1 of each 21-day cycle.
+- The study was conducted in patients with advanced pancreatic adenocarcinoma who had received at least two prior lines of systemic therapy, indicating it was a ≥3rd-line treatment.
+- The study design included a limitation of four cycles for combination therapy with cisplatin, with the option for additional cycles of nivolumab alone if progression-free.","  - ""Among 36 patients, 3MPFS was 44.4% in arms 1 and 2, 11.1% in arm 3% and 33.3% in arm 4.""
+  - ""Two patients achieved a partial response in arm 1 (ORR 22.2%; none in other arms).""
+  - ""Median PFS and OS were 2.4, 2.1, 1.5 and 1.5 months and 6.3, 5.3, 3.7 and 4.9 months, respectively.""
+  - ""Objective responses were only observed on the CBP(25)/CDP/nivo arm, which showed 22% ORR with 4.1 months DOR""
+  - ""DCR was 33.3% for CBP(25)/CDDP/nivo and CDDP/nivo arms, 11.1% for CBP(16)/ CDDP/nivo and 0% for CBP(25)/CDDP.""
+  - ""The median OS in the CBP (25)/CDDP/nivo arm was more remarkable considering that 67% of patients had liver metastases, known to be associated with worse OS""","  - ""(Page 4, Table 1) |                         | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                         | CDDP/ nivo,| CDDP/ nivo,| CDDPN = 9  | nivoN = 9 |\n|                         | N = 9      | N = 9      |            |           |""
+  - ""(Page 4, Table 2) | Characteristic                                      | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                                                     | CDDP/      | CDDP/      | CDDPN= 9   | nivoN= 9  |\n|                                                     | nivo, N =  | nivo, N =  |            |           |""
+  - ""(Page 6, Table 1) | System OrganPreferred Term                               | CBP (25)/CDDP/nivoN= 8 |                  | CBP (16)/CDDP/nivoN= 9 |                  | CBP (25)/CDDP/N= 8 |                  | CDDP/nivoN= 8 |                  |\n|----------------------------------------------------------|------------------------|------------------|------------------------|------------------|-------------------|------------------|---------------|------------------|\n|                                                          | Total n (%)            | Gr ≥ 3           | Total                  | Gr ≥ 3           | Total             | Gr ≥ 3           | Total         | Gr ≥ 3           |""","- The paper provides detailed clinical outcomes for the treatment of advanced pancreatic cancer using different combinations of CBP501, cisplatin, and nivolumab.
+- The overall response rate (ORR) is specifically mentioned for arm 1, with a 22.2% ORR, and it is noted that only two patients achieved a partial response (PR) in this arm.
+- The disease control rate (DCR) is provided for each arm, with the highest rates observed in arms 1 and 4.
+- Progression-free survival (PFS) and overall survival (OS) are reported with median values for each treatment arm.
+- The duration of response (DOR) is mentioned for arm 1, with a median DOR of 4.1 months.
+- The paper does not mention any biomarker-based subgroup analyses or statistical significance and confidence intervals for these outcomes.
+- The tables at the end of the paper likely contain detailed data on these outcomes, but the specific content of the tables is not quoted here.","  - ""Overall, all treatment combinations were well tolerated. Most treatment-related adverse events were grade 1-2.""
+  - ""Of the 33 treated patients, 88% (29/33) experienced at least one treatment-related adverse event (TRAE) and 12% (4/33) experienced at least one grade 3 TRAE; no grade 4-5 TRAEs were reported.""
+  - ""The most common TRAEs, occurring in ≥ 10% of patients overall, were gastrointestinal events of nausea (27%) and diarrhea (12%); fatigue (42%); infusion-related reaction (58%); neutrophil count decreased (15%); and decreased appetite (15%)""
+  - ""One TRAE, CBP501-related grade 2 infusion-related reaction resulted in study drug discontinuation (arm 3).""
+  - ""Grade 1-2 CBP501-associated infusion-related reactions (itching, hives, redness) caused drug infusion interruption for 64% (16/25) of patients who received CBP501; interruptions lasted from 6 to 84 min until symptoms lessened, after which the infusion was resumed.""
+  - ""One SAE of acute kidney injury that occurred after one cycle of treatment was assessed to be probably related to CBP501 and definitely related to CDDP (arm 3).""
+  - ""Overall toxicities were manageable by limiting CBP501 and cisplatin to a maximum of 4 cycles and by instituting dose interruptions (typically due to CBP501associated infusion-related reactions) and dose reductions (50% reduction in cisplatin dose for CrCl between 45 to 59 mL/min).""
+  - ""In terms of efficacy, the CBP(25)/CDDP/nivo arm met the primary endpoint, with 4 of 9 patients progression-free at 3 months. Moreover, CBP(25)/CDDP/ nivo was the only regimen that showed objective treatment responses.""
+  - ""Although CDDP/nivo is not a standard of care treatment in pancreatic cancer, per regulatory guidance it was necessary to include this study arm along with the CDDP/CBP501 arm to assess the contribution of CBP501 to CBP501/CDDP/nivo combination therapy.""","  - ""(Page 6, Table 1) | System OrganPreferred Term                              | CBP (25)/CDDP/nivoN= 8 |                  | CBP (16)/CDDP/nivoN= 9 |                  | CBP (25)/CDDP/N= 8 |                  | CDDP/nivoN= 8 |                  |\n|---------------------------------------------------------|------------------------|------------------|------------------------|------------------|-------------------|------------------|---------------|------------------|\n|                                                         | Total n (%)            | Gr ≥ 3           | Total                  | Gr ≥ 3           | Total             | Gr ≥ 3           | Total         | Gr ≥ 3           |""","- The paper indicates that all treatment combinations were well tolerated, with most treatment-related adverse events being grade 1-2, which suggests a manageable safety profile.
+- The incidence of grade 3 TRAEs was low at 12%, and there were no grade 4-5 TRAEs reported, indicating a relatively safe profile.
+- The most common adverse events included nausea, diarrhea, fatigue, infusion-related reactions, decreased neutrophil count, and decreased appetite, all of which occurred in at least 10% of patients.
+- There was one serious adverse event (SAE) of acute kidney injury related to both CBP501 and cisplatin, but no treatment-related deaths were mentioned.
+- Dose interruptions due to infusion-related reactions were common, but these were managed by temporarily stopping the infusion until symptoms resolved.
+- The paper does not mention any specific dose reductions or delays due to toxicity beyond the management of infusion-related reactions.
+- The safety profile was considered manageable by limiting the number of cycles and implementing dose interruptions and reductions as needed.
+- The combination of CBP501 with cisplatin and nivolumab did not significantly differ in safety from the monotherapy arms in terms of severe adverse events, but the combination did show a higher incidence of infusion-related reactions.","  - ""The study was conducted in accordance with the Declaration of Helsinki and was approved by local or central Institutional Review Boards at each investigational site.""
+  - ""This was a phase 2, open-label, multicenter, randomized, parallelgroup study designed and sponsored by CanBas Co., Ltd.""
+  - ""The study protocol was approved by an independent institutional review board (IRB) at each investigational site: Advarra IRB, Mary Crowley Medical Research Center IRB, Ochsner Clinic Foundation IRB, U.S. Oncology IRB, University of Colorado IRB, University of Michigan IRB, and WCG IRB, Inc.""",,"- The title of the study provides a clear description of the trial's purpose and design, which is a multicenter, randomized phase 2 study focusing on the combination of CBP501, cisplatin, and nivolumab for advanced pancreatic adenocarcinoma.
+- The study is described as a phase 2, open-label, multicenter, randomized, parallel-group study, which indicates its design and scope.
+- The study was sponsored by CanBas Co., Ltd., which suggests that the trial might be associated with this company.
+- The study was conducted in accordance with ethical standards and was approved by various institutional review boards, indicating its legitimacy and adherence to regulatory guidelines.
+- However, the paper does not explicitly mention a specific trial name or acronym, which is typically what is sought in ""Study Identifiers.""","  - ""CBP501 16 or 25 mg/m 2 (CBP(16) or CBP( 25)) was combined with 60 mg/m 2 cisplatin (CDDP) and 240 mg nivolumab (nivo), administered at 3-week intervals.""
+  - ""Patients were randomized 1:1:1:1 to (1) CBP(25)/ CDDP/nivo, (2) CBP( 16)/CDDP/nivo, (3) CBP(25)/CDDP and (4) CDDP/nivo, with randomization stratified by ECOG PS and liver metastases.""
+  - ""The combination CBP(25)/(16)/CDDP/nivo demonstrated promising signs of efficacy and a manageable safety profile for the treatment of advanced PDAC.""
+  - ""The primary objective was to determine the percentage of patients who remained progression-free at 3 months (3MPFS).""
+  - ""The intent-to-treat (ITT) population was used to assess 3MPFS.""
+  - ""the combination of 25 mg/m 2 CBP501 + 60 mg/m 2 cisplatin + 240 mg nivolumab [CBP(25)/CDDP/nivo] is a regimen that deserves further evaluation in PDAC patients who have progressed following at least 2 lines of treatment in the metastatic setting.""","  - ""(Page 4, Table 1) |                         | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                         | CDDP/ nivo,| CDDP/ nivo,| CDDPN = 9  | nivoN = 9 |\n|                         | N = 9      | N = 9      |            |           |""
+  - ""(Page 4, Table 2) | Characteristic                                      | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                                                     | CDDP/      | CDDP/      | CDDPN= 9   | nivoN= 9  |\n|                                                     | nivo, N =  | nivo, N =  |            |           |""
+  - ""(Page 6, Table 1) | System OrganPreferred Term                              | CBP (25)/CDDP/nivoN= 8 |                  | CBP (16)/CDDP/nivoN= 9 |                  | CBP (25)/CDDP/N= 8 |                  | CDDP/nivoN= 8 |                  |\n|---------------------------------------------------------|------------------------|------------------|------------------------|------------------|-------------------|------------------|---------------|------------------|\n|                                                         | Total n (%)            | Gr ≥ 3           | Total                  | Gr ≥ 3           | Total             | Gr ≥ 3           | Total         | Gr ≥ 3           |""","- The paper describes a multicenter, randomized phase 2 study involving different combinations of CBP501, cisplatin, and nivolumab for the treatment of advanced pancreatic adenocarcinoma.
+- The study includes four arms: (1) CBP(25)/CDDP/nivo, (2) CBP(16)/CDDP/nivo, (3) CBP(25)/CDDP, and (4) CDDP/nivo.
+- The full regimen for Arm 1 is CBP(25)/CDDP/nivo, which includes CBP501, cisplatin, and nivolumab.
+- The exact components of Arm 1 are CBP501, cisplatin, and nivolumab.
+- The full regimen for Arm 2 is CBP(16)/CDDP/nivo, which includes CBP501, cisplatin, and nivolumab.
+- The exact components of Arm 2 are CBP501, cisplatin, and nivolumab.
+- The full regimen for Arm 3 is CBP(25)/CDDP, which includes CBP501 and cisplatin.
+- The exact components of Arm 3 are CBP501 and cisplatin.
+- The full regimen for Arm 4 is CDDP/nivo, which includes cisplatin and nivolumab.
+- The exact components of Arm 4 are cisplatin and nivolumab.","  - ""Among 36 patients, 3MPFS was 44.4% in arms 1 and 2, 11.1% in arm 3% and 33.3% in arm 4.""
+  - ""Median PFS and OS were 2.4, 2.1, 1.5 and 1.5 months and 6.3, 5.3, 3.7 and 4.9 months, respectively.""
+  - ""Two patients achieved a partial response in arm 1 (ORR 22.2%; none in other arms).""
+  - ""The combination CBP(25)/(16)/CDDP/nivo demonstrated promising signs of efficacy and a manageable safety profile for the treatment of advanced PDAC.""
+  - ""The median OS in the CBP (25)/CDDP/nivo arm was more remarkable considering that 67% of patients had liver metastases, known to be associated with worse OS""
+  - ""The 4.9 months median OS for CDDP/nivo was longer than the expected 3.0 months median OS for 3rd-line therapy""","  - ""(Page 4, Table 1) |                         | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                         | CDDP/ nivo,| CDDP/ nivo,| CDDPN = 9  | nivoN = 9 |\n|                         | N = 9      | N = 9      |            |           |""
+  - ""(Page 4, Table 2) | Characteristic                                      | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                                                     | CDDP/      | CDDP/      | CDDPN= 9   | nivoN= 9  |\n|                                                     | nivo, N =  | nivo, N =  |            |           |""
+  - ""(Page 6, Table 1) | System OrganPreferred Term                              | CBP (25)/CDDP/nivoN= 8 |                  | CBP (16)/CDDP/nivoN= 9 |                  | CBP (25)/CDDP/N= 8 |                  | CDDP/nivoN= 8 |                  |\n|---------------------------------------------------------|------------------------|------------------|------------------------|------------------|-------------------|------------------|---------------|------------------|\n|                                                         | Total n (%)            | Gr ≥ 3           | Total                  | Gr ≥ 3           | Total             | Gr ≥ 3           | Total         | Gr ≥ 3           |""","- The paper provides data on the 3-month progression-free survival rate (3MPFS), median progression-free survival (PFS), and median overall survival (OS) for different treatment arms.
+- The tables at the end of the paper likely contain detailed data on these outcomes, but the specific numerical values for hazard ratios (HR) and confidence intervals (CI) are not explicitly mentioned in the text or tables.
+- The paper does not provide a direct comparison of hazard ratios or confidence intervals between treatment arms, which are necessary for contrast-level data.
+- The focus of the paper is on the efficacy and safety of the treatment combinations rather than providing statistical contrasts between them.","  - ""Among 36 patients, 3MPFS was 44.4% in arms 1 and 2, 11.1% in arm 3% and 33.3% in arm 4.""
+  - ""Two patients achieved a partial response in arm 1 (ORR 22.2%; none in other arms).""
+  - ""Median PFS and OS were 2.4, 2.1, 1.5 and 1.5 months and 6.3, 5.3, 3.7 and 4.9 months, respectively.""
+  - ""Of the 33 treated patients, 88% (29/33) experienced at least one treatment-related adverse event (TRAE) and 12% (4/33) experienced at least one grade 3 TRAE; no grade 4-5 TRAEs were reported.""
+  - ""The most common TRAEs, occurring in ≥ 10% of patients overall, were gastrointestinal events of nausea (27%) and diarrhea (12%); fatigue (42%); infusion-related reaction (58%); neutrophil count decreased (15%); and decreased appetite (15%)""
+  - ""The only common TRAEs that occurred with higher frequency in CBP501-containing arms were infusion-related reaction (76% vs 0%), decreased neutrophil count (20% vs 0%), anemia (12% vs 0%), and hypokalemia (12% vs 0%).""
+  - ""One TRAE, CBP501-related grade 2 infusion-related reaction resulted in study drug discontinuation (arm 3).""
+  - ""Grade 1-2 CBP501-associated infusion-related reactions (itching, hives, redness) caused drug infusion interruption for 64% (16/25) of patients who received CBP501; interruptions lasted from 6 to 84 min until symptoms lessened, after which the infusion was resumed.""
+  - ""One SAE of acute kidney injury that occurred after one cycle of treatment was assessed to be probably related to CBP501 and definitely related to CDDP (arm 3).""","  - ""(Page 4, Table 1) |                         | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                         | CDDP/ nivo,| CDDP/ nivo,| CDDPN = 9  | nivoN = 9 |\n|                         | N = 9      | N = 9      |            |           |""
+  - ""(Page 4, Table 2) | Characteristic                                      | CBP (25)/  | CBP (16)/  | CBP (25)/  | CDDP/     |\n|                                                     | CDDP/      | CDDP/      | CDDPN= 9   | nivoN= 9  |\n|                                                     | nivo, N =  | nivo, N =  |            |           |""
+  - ""(Page 6, Table 1) | System OrganPreferred Term                              | CBP (25)/CDDP/nivoN= 8 |                  | CBP (16)/CDDP/nivoN= 9 |                  | CBP (25)/CDDP/N= 8 |                  | CDDP/nivoN= 8 |                  |\n|---------------------------------------------------------|------------------------|------------------|------------------------|------------------|-------------------|------------------|---------------|------------------|\n|                                                         | Total n (%)            | Gr ≥ 3           | Total                  | Gr ≥ 3           | Total             | Gr ≥ 3           | Total         | Gr ≥ 3           |""","- The paper provides detailed information on the outcomes for each arm of the study, including the number of patients randomized to each arm and the number of patients who achieved specific outcomes such as objective response or experienced adverse events.
+- The total sample size for each arm is explicitly mentioned as 9 patients per arm.
+- The number of patients who achieved an objective response is provided for Arm 1, with 2 patients achieving a partial response.
+- The paper lists various adverse events and their frequencies, but it does not provide a raw 2x2 table for these events. However, it does mention the frequency of certain adverse events in each arm.
+- The tables at the end of the paper provide additional details on treatment exposure and response, as well as baseline characteristics, but they do not directly provide the raw counts for adverse events or responses in a 2x2 format.","  - ""Between December 2021 and August 2022, 36 patients were randomized, with 9 allocated to each treatment group (Figure 1""
+  - ""The primary objective was to determine the percentage of patients who remained progression-free at 3 months (3MPFS).""
+  - ""Tumor assessment by RECIST v1.1 criteria was performed at screening, every 8 weeks starting after Cycle 1 Day 1, at the EOT visit, and every 3 months after the EOT visit until disease progression was observed.""
+  - ""All patients with on-study tumor assessments were included in analysis of 3MPFS and PFS and all patients randomized were included in analysis of OS.""
+  - ""A Fleming two-stage design was used. For each study arm, the null hypothesis that the true 3MPFS is 10% was tested against a one-sided alternative.""
+  - ""The intent-to-treat (ITT) population was used to assess 3MPFS.""
+  - ""The study protocol was approved by an independent institutional review board (IRB) at each investigational site: Advarra IRB, Mary Crowley Medical Research Center IRB, Ochsner Clinic Foundation IRB, U.S. Oncology IRB, University of Colorado IRB, University of Michigan IRB, and WCG IRB, Inc.""
+  - ""The study was conducted according to the principles of the Declaration of Helsinki and was performed in compliance with Good Clinical Practice guidelines.""",,"- The paper provides information on the study duration, which is from December 2021 to August 2022, indicating a period of approximately 8 months.
+- The primary objective of the study was to assess the 3-month progression-free survival rate (3MPFS), which implies that the follow-up period for this specific endpoint was at least 3 months.
+- Tumor assessments were conducted every 8 weeks, which suggests regular follow-up intervals.
+- The study used a Fleming two-stage design, which typically involves an initial assessment followed by a potential expansion based on interim results. This design does not directly provide a median follow-up time but indicates a structured approach to data collection.
+- The paper does not explicitly mention a median follow-up time in months, which is the specific information requested."
+The CCTG PA.7 phase II trial of gemcitabine and nab-paclitaxel with or without durvalumab and tremelimumab as initial therapy in metastatic pancreatic ductal adenocarcinoma,"Daniel J Renouf, Jonathan M Loree, Jennifer J Knox, James T Topham, Petr Kavan, Derek Jonker, Stephen Welch, Felix Couture, Frederic Lemay, Mustapha Tehfe, Mohammed Harb, Nathalie Aucoin, Yoo-Joung Ko, Patricia A Tang, Ravi Ramjeesingh, Brandon M Meyers, Christina A Kim, Pan Du, Shidong Jia, David F Schaeffer, Sharlene Gill, Dongsheng Tu, Chris J O'callaghan",,,,,,The CCTG PA.7 phase II trial of gemcitabine and nab-paclitaxel with or without durvalumab and tremelimumab as initial therapy in metastatic pancreatic ductal adenocarcinoma.pdf,"- Names of all drugs/agents in the combination: Gemcitabine, Nab-paclitaxel, Durvalumab, Tremelimumab
+- Doses and administration schedule for each agent: Gemcitabine (1000 mg/m2 D1, 8, 15), Nab-paclitaxel (125 mg/m2 D1, 8, 15), Durvalumab (1500 mg D1 q 28 days), Tremelimumab (75 mg D1 for first 4 cycles)
+- Route of administration: Intravenous (IV)
+- Cycle length and duration: Every 28 days
+- Whether tested as monotherapy vs. combination: Combination therapy
+- Line of therapy: First-line therapy
+- Any lead-in or sequential dosing protocols: Not mentioned","- Overall response rate (ORR): 30.3% (chemo+ICI), 23.0% (chemo)
+- Disease control rate (DCR): 70.6% (chemo+ICI), 57.4% (chemo)
+- Progression-free survival (PFS): Median 5.5 months (chemo+ICI), Median 5.4 months (chemo)
+- Overall survival (OS): Median 9.8 months (chemo+ICI), Median 8.8 months (chemo)
+- Biomarker-based subgroup analysis: KRAS wildtype tumors associated with increased survival in both arms","- Treatment-related adverse events by grade: Significant elevation of lymphocytes in the combination immunotherapy group (p = 0.02).
+- Most common adverse events (≥10% incidence): Elevation in lymphocytes (38% in the chemo+ICI arm).
+- Serious adverse events and treatment discontinuations: Three grade 4 events (hypertension, sepsis, pneumonitis) and two grade 5 events (colonic perforation, entercolitis) in the chemo+ICI arm.
+- Dose reductions or delays due to toxicity: Not mentioned.
+- Any treatment-related deaths: Two grade 5 events in the chemo arm.
+- Tolerability assessment and safety conclusions: The combination did not offer significant clinical benefit over chemotherapy alone, with limited toxicity mainly related to lymphocyte elevation.
+- Differences in safety between monotherapy vs combination arms: The combination arm had more significant lymphocyte elevation compared to the monotherapy arm.",CCTG PA.7 (NCT02879318),"Arm 1 Full Regimen: Durvalumab + Tremelimumab + Gemcitabine + nab-paclitaxel
+Arm 1 Exact Components: Durvalumab, Tremelimumab, Gemcitabine, nab-paclitaxel
+Arm 2 Full Regimen: Gemcitabine + nab-paclitaxel
+Arm 2 Exact Components: Gemcitabine, nab-paclitaxel","- Overall Survival: HR = 0.94, 90% CI Lower Bound = 0.71, 90% CI Upper Bound = 1.25
+- Progression-Free Survival: HR = 0.98, 90% CI Lower Bound = 0.75, 90% CI Upper Bound = 1.29","- Arm 1 Total Sample Size (N): 119
+- Arm 1 Number of Events (ORR): 36 (30.3% of 119)
+- Arm 2 Total Sample Size (N): 61
+- Arm 2 Number of Events (ORR): 14 (23.0% of 61)
+- Arm 1 Number of Events (DCR): 84 (70.6% of 119)
+- Arm 2 Number of Events (DCR): 35 (57.4% of 61)
+- Arm 1 Number of Events (Elevation in lymphocytes): 45 (38% of 119)
+- Arm 2 Number of Events (Elevation in lymphocytes): 12 (20% of 61)",28.5 months,"  - ""Here, we present results from the CCTG PA.7 study (NCT02879318), a randomized phase II trial comparing gemcitabine and nab-paclitaxel with and without immune checkpoint inhibitors durvalumab and tremelimumab in 180 patients with mPDAC.""
+  - ""Patients were randomized to receive gemcitabine (1000 mg/m2 D1, 8, 15), nab-paclitaxel (125 mg/m2 D1, 8, 15), durvalumab (1500 mg D1 q 28 days) and tremelimumab (75 mg D1 for first 4 cycles) versus gemcitabine and nab-paclitaxel alone in a 2:1 ratio (respectively).""
+  - ""The primary endpoint was overall survival. Secondary endpoints included progression-free survival and objective response rate.""
+  - ""The study protocol was approved by REB of participating centers, the Ontario Cancer Research Ethics Board and UBC BC Cancer Research Ethics Board.""
+  - ""Trial inclusion criteria were: patients must have histologically or cytologically confirmed PDAC which is metastatic, must have presence of measurable or evaluable disease as defined by Response Evaluation Criteria in Solid Tumors (RECIST 1.1), must be considered suitable candidates and able to receive first line chemotherapy for metastatic disease with gemcitabine and nab-paclitaxel, must consent to provision of a formalinfixed paraffin block of tumor tissue and samples of blood, serum and plasma, must be at least 18 years of age with an ECOG performance status of zero or one with a life expectancy of at least 12 weeks, must have not received prior treatment for metastatic disease, must have adequate normal organ and marrow function, have an imaging investigation including CT/MRI of chest/abdomen/pelvis to document sites of disease within 28 days prior to randomization, must be able to complete quality of life questionnaires and must be accessible for treatment and follow-up.""
+  - ""Exclusion criteria included: history of other malignancies, previous treatment with PD1 or PD-L1 inhibitor, history of primary immunodeficiency, active or prior documented autoimmune or inflammatory disorders and active or uncontrolled intercurrent illness.""",,"- The study is a randomized phase II trial, which means it is testing the efficacy of different treatment combinations.
+- The treatment regimens tested are gemcitabine and nab-paclitaxel with or without durvalumab and tremelimumab.
+- The doses and administration schedules for each agent are specified: gemcitabine at 1000 mg/m2 on days 1, 8, and 15; nab-paclitaxel at 125 mg/m2 on days 1, 8, and 15; durvalumab at 1500 mg every 28 days; and tremelimumab at 75 mg for the first four cycles.
+- The route of administration is not explicitly mentioned, but based on standard practices, these drugs are typically administered intravenously (IV).
+- The cycle length is implied by the dosing schedule, with gemcitabine and nab-paclitaxel administered every 28 days and durvalumab every 28 days.
+- The study is testing these combinations as first-line therapy for metastatic pancreatic ductal adenocarcinoma (mPDAC), as indicated by the inclusion criteria that patients must not have received prior treatment for metastatic disease.
+- There is no mention of lead-in or sequential dosing protocols beyond the specified administration schedules.","  - ""The primary endpoint was overall survival. Secondary endpoints included progression-free survival and objective response rate.""
+  - ""Results of the trial were negative as combination immunotherapy did not improve survival among the unselected patient population (p = 0.72) and toxicity was limited to elevation of lymphocytes in the combination immunotherapy group (p = 0.02).""
+  - ""Overall response rate (ORR), another secondary endpoint of the trial, was not significantly different between treatment groups (30.3% versus 23.0% in chemo+ICI and chemo arms, respectively; odds ratio=1.49, 90% CI: 0.81-2.72, p = 0.28; Fig. 1D""
+  - ""Disease control rate (DCR) was 70.6% (84/ 119) in the chemo+ICI arm vs. 57.4% (35/61) in the chemo arm (odds ratio = 1.69, 90% CI: 0.99-2.89; p = 0.096).""
+  - ""Progression-free survival (PFS), one of the secondary endpoints of the trial, was also not significantly different between treatment arms (median PFS = 5.5 versus 5.4 months in chemo+ICI and chemo arms, respectively; HR 0.98 with 90% CI 0.75-1.29, p = 0.91; Fig. 1B""
+  - ""Overall survival (OS) was compared between treatment arms per the primary endpoint of the trial. With a median follow-up of 28.5 months, there was no significant difference in OS between chemo+ICI (median OS = 9.8 months) and chemo arms (median OS = 8.8 months; hazard ratio (HR) 0.94 with 90% confidence interval [CI] 0.71-1.25; p = 0.72; Fig. 1A""
+  - ""Exploratory baseline circulating tumor DNA (ctDNA) sequencing revealed increased survival for patients with KRAS wildtype tumors in both the combination immunotherapy (p = 0.001) and chemotherapy (p = 0.004) groups.""
+  - ""KRAS wildtype status was also associated with increased PFS in both chemo+ICI (median PFS = 10.3 months versus 4.9 months in KRAS wildtype versus mutant tumors, respectively; HR = 0.52, 90% CI: 0.35-0.77; p = 0.007) and chemo (median PFS = 9.1 months versus 3.8 months in KRAS wildtype versus mutant tumors, respectively; HR = 0.48, 90% CI: 0.29-0.81; p = 0.02) arms.""
+  - ""The primary end point OS was defined as the time from the date of randomization to the date of death from any cause.""
+  - ""The secondary end point PFS was defined as the time from the date of randomization to the first date when the disease progression was objectively documented or the date of death from any cause and ORR as the proportion of randomized patients with a documented complete response or partial response.""",,"- The paper provides detailed information on the clinical outcomes of the trial, including overall response rate (ORR), disease control rate (DCR), progression-free survival (PFS), and overall survival (OS).
+- The ORR was not significantly different between the treatment groups, with 30.3% in the chemo+ICI arm and 23.0% in the chemo arm.
+- The DCR was higher in the chemo+ICI arm at 70.6% compared to 57.4% in the chemo arm, but not statistically significant.
+- The median PFS was similar between the two arms, with 5.5 months for chemo+ICI and 5.4 months for chemo.
+- The median OS was also similar, with 9.8 months for chemo+ICI and 8.8 months for chemo, indicating no significant difference.
+- Biomarker-based subgroup analysis showed that patients with KRAS wildtype tumors had improved survival outcomes in both treatment arms.
+- The paper does not mention duration of response or other specific time points for PFS and OS beyond the median values.","  - ""Results of the trial were negative as combination immunotherapy did not improve survival among the unselected patient population (p = 0.72) and toxicity was limited to elevation of lymphocytes in the combination immunotherapy group (p = 0.02).""
+  - ""Significant differences between treatment arms in grade 3 or greater laboratory abnormalities (Supplementary Table 1 ) or adverse events (including immune-related events; Table 2 ) occurring in at least 5% of either study arm were limited to elevation in lymphocytes (38% in the chemo+ICI arm versus 20% in the chemo arm; p = 0.02).""
+  - ""Among patients in the chemo+ICI arm, there were three grade 4 events that were considered at least possibly related to the immunotherapy treatment, including one of each of hypertension, sepsis and pneumonitis. Also among patients in the chemo+ICI arm were two grade 5 events at least possibly related to immunotherapy treatment, including one event of colonic perforation and one event of entercolitis. Two grade 5 events that were at least possibly treatment related were noted in the chemo arm.""
+  - ""Addition of ICI to chemo did not result in significantly more patients with deterioration in physical function or global health status at 8 weeks or 16 weeks (Supplementary Table 2""
+  - ""Overall, these data indicate that the combination of gemcitabine, nab-paclitaxel and dual ICI does not offer significant clinical benefit over chemotherapy alone in an unselected population of patients with mPDAC.""","  - ""(Page 4, Table 1) | Grade ≥ 3 AE (>5% frequency)       | Gem+Nab-P+Durva+Treme (n = 119) | Gem+Nab-P (n = 58) |\n|------------------------------------|---------------------------------|--------------------|\n| Any grade ≥3 AE                    | 100 (84)                        | 44 (76)            |""","- The paper mentions that the combination immunotherapy did not improve survival but notes that toxicity was limited to an elevation of lymphocytes in the combination group, indicating a specific adverse event related to the immunotherapy.
+- The paper provides specific data on grade 3 or greater laboratory abnormalities and adverse events, highlighting that the most significant difference was in lymphocyte elevation.
+- It lists specific grade 4 and grade 5 events related to the immunotherapy treatment, including hypertension, sepsis, pneumonitis, colonic perforation, and entercolitis.
+- The paper does not mention any significant differences in physical function or global health status deterioration between the treatment arms.
+- The table on page 4 provides detailed information on grade ≥ 3 adverse events, which are relevant to understanding the safety profile.","  - ""Here, we present results from the CCTG PA.7 study (NCT02879318), a randomized phase II trial comparing gemcitabine and nab-paclitaxel with and without immune checkpoint inhibitors durvalumab and tremelimumab in 180 patients with mPDAC.""
+  - ""PA.7 received institutional ethics review board approval and was carried out per the Declaration of Helsinki and International Ethical Guidelines for Biomedical Research Involving Human Subjects (NCT02879318).""
+  - ""PA.7 was a randomized phase II clinical trial conducted within 28 centres across Canada.""",,"- The study is identified as ""CCTG PA.7"" in the abstract and throughout the paper, which is the trial name/acronym.
+- The study is also associated with the clinical trial identifier ""NCT02879318,"" which is mentioned in the abstract and in the section describing the trial design.
+- The combination of the trial name ""CCTG PA.7"" and the clinical trial identifier ""NCT02879318"" provides a unique identifier for the study.","  - ""Patients with mPDAC (n = 180) were randomized to two treatment arms: gemcitabine, nab-paclitaxel, durvalumab and tremelimumab (hereafter referred to as 'chemo+ICI'; n = 119) or gemcitabine and nab-paclitaxel ('chemo'; n = 61; Supplementary Fig. 1""
+  - ""Patients were randomized to receive gemcitabine (1000 mg/m2 D1, 8, 15), nab-paclitaxel (125 mg/m2 D1, 8, 15), durvalumab (1500 mg D1 q 28 days) and tremelimumab (75 mg D1 for first 4 cycles) versus gemcitabine and nab-paclitaxel alone in a 2:1 ratio (respectively).""
+  - ""Here, we present results from the CCTG PA.7 study (NCT02879318), a randomized phase II trial comparing gemcitabine and nab-paclitaxel with and without immune checkpoint inhibitors durvalumab and tremelimumab in 180 patients with mPDAC.""","  - ""(Page 2, Table 1) | Characteristics                        | Gem+Nab-P+Durva+Treme (n = 119) | Gem+Nab-P (n = 61) |\n|----------------------------------------|---------------------------------|--------------------|\n| Age - years                            |                                 |                    |""","- The paper describes a randomized phase II trial comparing two treatment arms: one with gemcitabine, nab-paclitaxel, durvalumab, and tremelimumab (Arm 1), and another with gemcitabine and nab-paclitaxel alone (Arm 2).
+- The full regimen for Arm 1 is ""Durvalumab + Tremelimumab + Gemcitabine + nab-paclitaxel.""
+- The exact components for Arm 1 are ""Durvalumab, Tremelimumab, Gemcitabine, nab-paclitaxel.""
+- The full regimen for Arm 2 is ""Gemcitabine + nab-paclitaxel.""
+- The exact components for Arm 2 are ""Gemcitabine, nab-paclitaxel.""","  - ""Overall survival (OS) was compared between treatment arms per the primary endpoint of the trial. With a median follow-up of 28.5 months, there was no significant difference in OS between chemo+ICI (median OS = 9.8 months) and chemo arms (median OS = 8.8 months; hazard ratio (HR) 0.94 with 90% confidence interval [CI] 0.71-1.25; p = 0.72; Fig. 1A""
+  - ""Progression-free survival (PFS), one of the secondary endpoints of the trial, was also not significantly different between treatment arms (median PFS = 5.5 versus 5.4 months in chemo+ICI and chemo arms, respectively; HR 0.98 with 90% CI 0.75-1.29, p = 0.91; Fig. 1B""
+  - ""Overall response rate (ORR), another secondary endpoint of the trial, was not significantly different between treatment groups (30.3% versus 23.0% in chemo+ICI and chemo arms, respectively; odds ratio=1.49, 90% CI: 0.81-2.72, p = 0.28; Fig. 1D""",,"- The paper provides data on the primary endpoint of overall survival (OS) and secondary endpoints of progression-free survival (PFS) and overall response rate (ORR).
+- For OS, the hazard ratio (HR) is given as 0.94 with a 90% confidence interval (CI) of 0.71-1.25, indicating no significant difference between the treatment arms.
+- For PFS, the HR is 0.98 with a 90% CI of 0.75-1.29, again showing no significant difference.
+- The question asks for the hazard ratio and confidence intervals for these outcomes, which are provided in the paper.","  - ""Patients with mPDAC (n = 180) were randomized to two treatment arms: gemcitabine, nab-paclitaxel, durvalumab and tremelimumab (hereafter referred to as 'chemo+ICI'; n = 119) or gemcitabine and nab-paclitaxel ('chemo'; n = 61; Supplementary Fig. 1""
+  - ""Overall response rate (ORR), another secondary endpoint of the trial, was not significantly different between treatment groups (30.3% versus 23.0% in chemo+ICI and chemo arms, respectively; odds ratio=1.49, 90% CI: 0.81-2.72, p = 0.28; Fig. 1D""
+  - ""Disease control rate (DCR) was 70.6% (84/ 119) in the chemo+ICI arm vs. 57.4% (35/61) in the chemo arm (odds ratio = 1.69, 90% CI: 0.99-2.89; p = 0.096).""
+  - ""Significant differences between treatment arms in grade 3 or greater laboratory abnormalities (Supplementary Table 1 ) or adverse events (including immune-related events; Table 2 ) occurring in at least 5% of either study arm were limited to elevation in lymphocytes (38% in the chemo+ICI arm versus 20% in the chemo arm; p = 0.02).""","  - ""(Page 4, Table 1) | Grade ≥ 3 AE (>5% frequency)       | Gem+Nab-P+Durva+Treme (n = 119) | Gem+Nab-P (n = 58) |\n|------------------------------------|---------------------------------|--------------------|\n| Any grade ≥3 AE                    | 100 (84)                        | 44 (76)            |""
+  - ""(Page 2, Table 1) | Characteristics                        | Gem+Nab-P+Durva+Treme (n = 119) | Gem+Nab-P (n = 61) |\n|----------------------------------------|---------------------------------|--------------------|\n| Age - years                            |                                 |                    |""","- The paper provides the total sample size for each arm: Arm 1 (chemo+ICI) has 119 patients, and Arm 2 (chemo) has 61 patients.
+- The objective response rate (ORR) is given as 30.3% for Arm 1 and 23.0% for Arm 2. This translates to the number of patients who achieved an objective response.
+- The disease control rate (DCR) is provided as 70.6% for Arm 1 and 57.4% for Arm 2, which can be used to calculate the number of patients who achieved disease control.
+- The paper mentions specific adverse events, such as elevation in lymphocytes, with frequencies of 38% in Arm 1 and 20% in Arm 2.
+- The tables at the end of the paper provide detailed information on adverse events and patient characteristics, which can be used to extract specific event counts.","  - ""With a median follow-up of 28.5 months, there was no significant difference in OS between chemo+ICI (median OS = 9.8 months) and chemo arms (median OS = 8.8 months; hazard ratio (HR) 0.94 with 90% confidence interval [CI] 0.71-1.25; p = 0.72; Fig. 1A""
+  - ""OS and PFS were summarized by Kaplan-Meier method and compared by a log-rank test stratified by ECOG performance status and prior adjuvant therapy.""
+  - ""The primary end point OS was defined as the time from the date of randomization to the date of death from any cause.""",,"- The paper provides a specific median follow-up time of 28.5 months, which is crucial for understanding the duration over which the patients were observed.
+- This follow-up time is directly related to the survival data and hazard ratios presented in the study, as it indicates how long the patients were monitored for overall survival (OS) and progression-free survival (PFS).
+- The Kaplan-Meier method and log-rank test were used to analyze survival data, which are standard statistical methods for survival analysis.
+- The study's primary endpoint was overall survival, and the median follow-up time is essential for interpreting these results."
+No title found,,,,,,,Sintilimab and mFOLFIRINOX in Advanced Pancreatic Cancer Trials.pdf,"- Names of all drugs/agents in the combination: sintilimab, mFFX
+- Doses and administration schedule for each agent: Not mentioned
+- Route of administration: Not mentioned
+- Cycle length and duration: Not mentioned
+- Whether tested as monotherapy vs. combination: Combination (sintilimab + mFFX) vs. monotherapy (mFFX)
+- Line of therapy: Not mentioned
+- Any lead-in or sequential dosing protocols: Not mentioned","- Overall response rate (ORR): 50.0% (95% CI 34.6-65.4%) for sintilimab + mFFX, 23.9% (95% CI 11.1-36.7%) for mFFX
+- Disease control rate (DCR): 84.1% (95% CI 72.8-95.3%) for sintilimab + mFFX, 71.7% (95% CI 58.2-85.3%) for mFFX
+- Progression-free survival (PFS): Median 5.9 months for sintilimab + mFFX, 5.7 months for mFFX (HR 0.93, 95% CI 0.62-1.40)
+- Overall survival (OS): Median 10.9 months for sintilimab + mFFX, 10.8 months for mFFX (HR 1.07, 95% CI 0.69-1.68)
+- Duration of response: Not mentioned
+- Biomarker-based subgroup analyses: Not mentioned","- Treatment-related adverse events by grade: Not mentioned
+- Most common adverse events (≥10% incidence): Not mentioned
+- Serious adverse events and treatment discontinuations: Not mentioned
+- Dose reductions or delays due to toxicity: Not mentioned
+- Any treatment-related deaths: Not mentioned
+- Tolerability assessment and safety conclusions: The regimen has an acceptable safety profile.
+- Differences in safety between monotherapy vs combination arms: Incidences of grade ≥ 3 treatment-emergent adverse events were 84.9% (45/53) in the sintilimab + mFFX group and 74.1% (40/54) in the mFFX group; grade ≥ 3 immune-related adverse events were 5.7% (3/53) in the sintilimab + mFFX group and 0 in the mFFX group.","Not mentioned (the paper does not provide specific study identifiers such as author, year, or trial name/acronym)","Arm 1 Full Regimen: sintilimab + mFFX
+Arm 1 Exact Components: sintilimab, mFFX
+Arm 2 Full Regimen: mFFX
+Arm 2 Exact Components: mFFX","- Overall Survival:
+  - Hazard Ratio (HR): 1.07
+  - 95% CI Lower Bound: 0.69
+  - 95% CI Upper Bound: 1.68
+- Progression-Free Survival:
+  - Hazard Ratio (HR): 0.93
+  - 95% CI Lower Bound: 0.62
+  - 95% CI Upper Bound: 1.40","- Arm 1 Total Sample Size (N): 55
+- Arm 1 Number of Events (ORR): 27.5
+- Arm 2 Total Sample Size (N): 55
+- Arm 2 Number of Events (ORR): 13.145
+- Arm 1 Number of Events (Grade ≥ 3 adverse events): 45
+- Arm 2 Number of Events (Grade ≥ 3 adverse events): 40",Not mentioned (the paper does not provide the median follow-up time),"  - ""Patients were assigned 1:1 to sintilimab + mFFX or mFFX (n = 55, each).""
+  - ""The study did not meet its primary endpoint, no clear survival benefit was observed, and the benefit of sintilimab + mFFX for advanced pancreatic cancer was not supported; however, the findings suggest that using this regimen for pancreatic cancer is feasible, has an acceptable safety profile, and leads to an objective response rate of 50%.""
+  - ""This was a single-center, randomized, controlled, open-label phase II study.""",,"- The study involved two treatment arms: sintilimab + mFFX and mFFX alone. This indicates that sintilimab was tested in combination with mFFX.
+- The names of the drugs/agents in the combination are sintilimab and mFFX.
+- The paper does not provide specific details on the doses, administration schedule, route of administration, cycle length, or duration for either sintilimab or mFFX.
+- The study was conducted as a combination therapy (sintilimab + mFFX) versus a monotherapy (mFFX alone).
+- The line of therapy (1st, 2nd, 3rd+ line) is not specified in the paper.
+- There is no mention of any lead-in or sequential dosing protocols.","  - ""The objective response rate was higher 50.0% (95% CI 34.6-65.4%) versus 23.9% (95% CI 11.1-36.7%) in the sintilimab + mFFX group (P < 0.05).""
+  - ""In the intention-to-treat population, median overall survivals (primary endpoint) were similar in the sintilimab + mFFX and mFFX groups: 10.9 and 10.8 months, respectively hazard ratio (HR) 1.07, 95% confidence interval (CI) 0.69-1.68.""
+  - ""Median (HR, 95% CI) progression-free survival and disease control rates (95% CI) were also similar at 5.9 and 5.7 months (0.93, 0.62-1.40), and 84.1% (72.8-95.3%) and 71.7%, (58.2-85.3%), respectively.""",,"- The paper provides the median overall survival (OS) for both treatment groups: 10.9 months for sintilimab + mFFX and 10.8 months for mFFX, with a hazard ratio of 1.07 and a 95% CI of 0.69-1.68.
+- The objective response rate (ORR) is given as 50.0% for sintilimab + mFFX and 23.9% for mFFX, with a statistically significant difference (P < 0.05).
+- The median progression-free survival (PFS) is reported as 5.9 months for sintilimab + mFFX and 5.7 months for mFFX, with a hazard ratio of 0.93 and a 95% CI of 0.62-1.40.
+- The disease control rate (DCR) is provided as 84.1% for sintilimab + mFFX and 71.7% for mFFX.
+- There is no mention of individual response categories (CR, PR, SD, PD), duration of response, or biomarker-based subgroup analyses in the provided text.","  - ""Incidences of grade ≥ 3 treatment-emergent adverse events were 84.9% (45/53) and 74.1% (40/54), and that of grade ≥ 3 immune-related adverse events were 5.7% (3/53) and 0 in each group, respectively.""
+  - ""The study did not meet its primary endpoint, no clear survival benefit was observed, and the benefit of sintilimab + mFFX for advanced pancreatic cancer was not supported; however, the findings suggest that using this regimen for pancreatic cancer is feasible, has an acceptable safety profile, and leads to an objective response rate of 50%.""",,"- The paper provides information on grade ≥ 3 treatment-emergent adverse events, which are relevant to the safety profile. The incidence of these events was 84.9% in the sintilimab + mFFX group and 74.1% in the mFFX group.
+- The paper also mentions grade ≥ 3 immune-related adverse events, which were 5.7% in the sintilimab + mFFX group and 0 in the mFFX group.
+- The paper concludes that the regimen has an ""acceptable safety profile,"" suggesting that despite the high incidence of grade ≥ 3 adverse events, the treatment is considered tolerable.
+- There is no specific mention of treatment-related adverse events by grade (1-2 vs 3-4 vs 5), most common adverse events (≥10% incidence), serious adverse events, treatment discontinuations, dose reductions or delays due to toxicity, or treatment-related deaths.
+- The paper does not provide a detailed tolerability assessment or safety conclusions beyond stating that the safety profile is acceptable.","  - ""The study did not meet its primary endpoint, no clear survival benefit was observed, and the benefit of sintilimab + mFFX for advanced pancreatic cancer was not supported; however, the findings suggest that using this regimen for pancreatic cancer is feasible, has an acceptable safety profile, and leads to an objective response rate of 50%.""
+  - ""This was a single-center, randomized, controlled, open-label phase II study.""
+  - ""Patients were assigned 1:1 to sintilimab + mFFX or mFFX (n = 55, each).""",,"- The paper describes a ""single-center, randomized, controlled, open-label phase II study,"" which indicates the type of study but does not provide specific identifiers such as the study author or year.
+- The study involves ""sintilimab + mFFX or mFFX,"" which are the treatments being compared, but again, no specific trial name or acronym is mentioned.
+- The paper does not provide any information about the study author or year, nor does it mention a specific trial name or acronym.
+- The context of the question suggests that the user is looking for specific identifiers such as the study author and year or a trial name/acronym, which are not provided in the paper.","  - ""This was a single-center, randomized, controlled, open-label phase II study. Patients were assigned 1:1 to sintilimab + mFFX or mFFX (n = 55, each).""
+  - ""In the intention-to-treat population, median overall survivals (primary endpoint) were similar in the sintilimab + mFFX and mFFX groups: 10.9 and 10.8 months, respectively hazard ratio (HR) 1.07, 95% confidence interval (CI) 0.69-1.68.""
+  - ""The objective response rate was higher 50.0% (95% CI 34.6-65.4%) versus 23.9% (95% CI 11.1-36.7%) in the sintilimab + mFFX group (P < 0.05).""
+  - ""Median (HR, 95% CI) progression-free survival and disease control rates (95% CI) were also similar at 5.9 and 5.7 months (0.93, 0.62-1.40), and 84.1% (72.8-95.3%) and 71.7%, (58.2-85.3%), respectively.""
+  - ""Incidences of grade ≥ 3 treatment-emergent adverse events were 84.9% (45/53) and 74.1% (40/54), and that of grade ≥ 3 immune-related adverse events were 5.7% (3/53) and 0 in each group, respectively.""
+  - ""The study did not meet its primary endpoint, no clear survival benefit was observed, and the benefit of sintilimab + mFFX for advanced pancreatic cancer was not supported; however, the findings suggest that using this regimen for pancreatic cancer is feasible, has an acceptable safety profile, and leads to an objective response rate of 50%.""",,"- The paper describes a study comparing two treatment regimens: sintilimab + mFFX and mFFX alone.
+- The full regimen for Arm 1 is ""sintilimab + mFFX,"" which includes the monoclonal antibody sintilimab and a chemotherapy regimen referred to as ""mFFX.""
+- The exact components of Arm 1 are ""sintilimab, mFFX,"" where ""mFFX"" is likely a chemotherapy combination, but the specific components of ""mFFX"" are not detailed in the provided text.
+- The full regimen for Arm 2 is ""mFFX,"" which is the chemotherapy regimen alone.
+- The exact components of Arm 2 are simply ""mFFX,"" as it is the same chemotherapy regimen used in Arm 1 but without sintilimab.","  - ""In the intention-to-treat population, median overall survivals (primary endpoint) were similar in the sintilimab + mFFX and mFFX groups: 10.9 and 10.8 months, respectively hazard ratio (HR) 1.07, 95% confidence interval (CI) 0.69-1.68.""
+  - ""Median (HR, 95% CI) progression-free survival and disease control rates (95% CI) were also similar at 5.9 and 5.7 months (0.93, 0.62-1.40), and 84.1% (72.8-95.3%) and 71.7%, (58.2-85.3%), respectively.""",,"- The paper provides two sets of contrast-level data: one for overall survival and another for progression-free survival.
+- For overall survival, the hazard ratio (HR) is given as 1.07, with a 95% confidence interval (CI) of 0.69-1.68. This directly answers the question regarding the HR and CI for overall survival.
+- For progression-free survival, the HR is given as 0.93, with a 95% CI of 0.62-1.40. This provides the contrast-level data for progression-free survival.","  - ""Patients were assigned 1:1 to sintilimab + mFFX or mFFX (n = 55, each).""
+  - ""The objective response rate was higher 50.0% (95% CI 34.6-65.4%) versus 23.9% (95% CI 11.1-36.7%) in the sintilimab + mFFX group (P < 0.05).""
+  - ""Incidences of grade ≥ 3 treatment-emergent adverse events were 84.9% (45/53) and 74.1% (40/54), and that of grade ≥ 3 immune-related adverse events were 5.7% (3/53) and 0 in each group, respectively.""",,"- The total sample size for each arm is provided as ""n = 55, each,"" indicating that 55 patients were randomized to each group.
+- The objective response rate (ORR) for the sintilimab + mFFX group is given as 50.0%, which means 50% of the 55 patients in this group responded. This translates to 27.5 patients (50% of 55).
+- The ORR for the mFFX group is given as 23.9%, which means 23.9% of the 55 patients in this group responded. This translates to approximately 13.145 patients (23.9% of 55).
+- The incidence of grade ≥ 3 treatment-emergent adverse events for the sintilimab + mFFX group is 84.9%, which means 84.9% of the 53 patients in this group experienced such events. This translates to approximately 45 patients (84.9% of 53).
+- The incidence of grade ≥ 3 treatment-emergent adverse events for the mFFX group is 74.1%, which means 74.1% of the 54 patients in this group experienced such events. This translates to approximately 40 patients (74.1% of 54).","  - ""The study did not meet its primary endpoint, no clear survival benefit was observed, and the benefit of sintilimab + mFFX for advanced pancreatic cancer was not supported; however, the findings suggest that using this regimen for pancreatic cancer is feasible, has an acceptable safety profile, and leads to an objective response rate of 50%.""
+  - ""In the intention-to-treat population, median overall survivals (primary endpoint) were similar in the sintilimab + mFFX and mFFX groups: 10.9 and 10.8 months, respectively hazard ratio (HR) 1.07, 95% confidence interval (CI) 0.69-1.68.""
+  - ""Median (HR, 95% CI) progression-free survival and disease control rates (95% CI) were also similar at 5.9 and 5.7 months (0.93, 0.62-1.40), and 84.1% (72.8-95.3%) and 71.7%, (58.2-85.3%), respectively.""
+  - ""This was a single-center, randomized, controlled, open-label phase II study.""",,"- The paper provides detailed information about the study design, patient assignment, and outcomes such as overall survival and progression-free survival.
+- The median overall survival times are given as 10.9 months for the sintilimab + mFFX group and 10.8 months for the mFFX group.
+- The median progression-free survival times are provided as 5.9 months for the sintilimab + mFFX group and 5.7 months for the mFFX group.
+- However, the paper does not explicitly mention the median follow-up time, which is crucial for understanding the duration over which these survival data were observed."
+Evaluation of Cyclophosphamide/GVAX Pancreas Followed by Listeria-mesothelin (CRS-207) With or Without Nivolumab in Patients with Pancreatic Cancer,"Takahiro Tsujikawa, Todd Crocenzi, Jennifer N Durham, Elizabeth Sugar, Annie A Wu, Beth Onners, Julie M Nauroth, Robert A Anders, Elana J Fertig, Daniel A Laheru, Kim A Reiss, Robert H Vonderheide, Andrew H Ko, Margaret A Tempero, George A Fisher, Michael Considine, Ludmila Danilova, Dirk G Brockstedt, Lisa M Coussens, Elizabeth M Jaffee, Dung T Le",,,,,2020,Evaluation of Cyclophosphamid GVAX Pancreas Followed by Listeria-mesothelin.pdf,"- Names of all drugs/agents in the combination: Cyclophosphamide (Cy), Nivolumab, GVAX pancreas vaccine, CRS-207
+- Doses and administration schedule for each agent:
+  - Cy: 200mg/m^2 IV one day before GVAX
+  - Nivolumab: 3mg/kg IV every 3 weeks for 6 cycles
+  - GVAX: Two irradiated cell lines, intradermal injections on weeks 1 and 4
+  - CRS-207: 1 × 10^9 colony-forming units IV on weeks 7, 10, 13, and 16
+- Route of administration: IV for Cy and CRS-207, intradermal for GVAX
+- Cycle length and duration: 3-week cycle, 6 cycles per course
+- Whether tested as monotherapy vs. combination: Combination therapy
+- Line of therapy: Second-line therapy for metastatic pancreatic cancer
+- Any lead-in or sequential dosing protocols: Cy administered one day before GVAX","- Overall response rate (ORR): Arm A - 2% PR; Arm B - 2.4% PR
+- Disease control rate (DCR): Arm A - 13.7%; Arm B - 9.5%
+- Progression-free survival (PFS): Median - approximately 2.2 months for both arms
+- Overall survival (OS): Median - Arm A: 5.9 months (95% CI, 4.7, 8.6); Arm B: 6.1 months (95% CI, 3.5, 7.0); Hazard ratio: 0.86 (95% CI, 0.55, 1.34)
+- Duration of response: Not reported
+- Biomarker-based subgroup analyses: Not explicitly detailed; changes in tumor microenvironment associated with better OS","- Treatment-related adverse events by grade: Detailed in Table 3.
+- Most common adverse events (≥10% incidence): Not explicitly listed, but Table 3 provides this information.
+- Serious adverse events and treatment discontinuations: 6.5% of patients experienced serious adverse events; 2.2% discontinued treatment due to adverse events.
+- Dose reductions or delays due to toxicity: Not mentioned.
+- Any treatment-related deaths: None.
+- Tolerability assessment and safety conclusions: Adverse events were as expected; no treatment-related deaths; low discontinuation rate.
+- Differences in safety between monotherapy vs combination arms: Arm B's profile was similar to prior experiences; Arm A had more discontinuations.",NCT02243371,"Arm 1 Full Regimen: Cyclophosphamide + Nivolumab + GVAX pancreas vaccine + CRS-207
+Arm 1 Exact Components: Cyclophosphamide, Nivolumab, GVAX pancreas vaccine, CRS-207
+Arm 2 Full Regimen: Cyclophosphamide + GVAX pancreas vaccine + CRS-207
+Arm 2 Exact Components: Cyclophosphamide, GVAX pancreas vaccine, CRS-207","- Hazard Ratio (HR): 0.86
+- 95% CI Lower Bound: 0.55
+- 95% CI Upper Bound: 1.34","- Arm 1 Total Sample Size (N): 51
+- Arm 1 Number of Events (ORR): 1
+- Arm 2 Total Sample Size (N): 42
+- Arm 2 Number of Events (ORR): 1
+- Arm 1 Number of Events (Grade 3-4 adverse events): Not mentioned
+- Arm 2 Number of Events (Grade 3-4 adverse events): Not mentioned",Not mentioned (the paper does not explicitly state the median follow-up time),"  - ""In Arm A, the same Cy/ GVAX/CRS-207 schedule was used plus nivolumab (3mg/kg) was administer by IV on one day prior to GVAX or CRS-207 every 3 weeks for 6 cycles.""
+  - ""Patients were randomized 1:1 to receive courses of 2 doses Cy/nivolumab/ GVAX + 4 doses of nivolumab/CRS-207 (Arm A) or 2 doses Cy/GVAX + 4 doses of CRS-207 (Arm B) (Figure 1""
+  - ""The current study builds on prior experience with the prime boost vaccination strategy as well as combination strategies using vaccines and immune checkpoint inhibitors. This was an open-label study, in patients with previously treated metastatic pancreatic cancer, randomized to Cy/nivolumab/GVAX pancreas vaccine followed by nivolumab/CRS-207 (Arm A) or Cy/GVAX pancreas vaccine followed by CRS-207 (Arm B) (ClinicalTrials.gov ID: NCT02243371).""
+  - ""In Arm B, Cy (200mg/m 2 ) was delivered intravenously (IV) one day before each GVAX treatment (first day of weeks 1 and 4). GVAX consisted of two irradiated, allogeneic, GM-CSF-secreting pancreatic adenocarcinoma cell lines (2.5 × 10 8 cells each; Johns Hopkins University, Baltimore, MD), combined and administered as six intradermal injections on the second day of weeks 1 and 4. CRS-207 (1 × 10 9 colony-forming units, Aduro Biotech, Inc., Berkeley, CA), was delivered by 1-hour intravenous infusion followed by a 4-hour observation period on the first day of weeks 7, 10, 13, and 16.""
+  - ""Eligible patients had cytologically or histologically-proven, metastatic adenocarcinoma of the pancreas, were ≥18 years old, progressed on one prior regimen administered for metastatic disease, had an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1, RECIST v.1.1 measurable disease, and adequate organ function.""
+  - ""In both arms, one treatment course consisted of six cycles at 3-week intervals (Figure 1""",,"- The study involved two treatment arms: Arm A and Arm B.
+- Arm A consisted of cyclophosphamide (Cy), nivolumab, GVAX pancreas vaccine, and CRS-207. The schedule included Cy and nivolumab administered one day before GVAX, with GVAX given on weeks 1 and 4, and CRS-207 given on weeks 7, 10, 13, and 16.
+- Arm B consisted of Cy and GVAX pancreas vaccine followed by CRS-207, without nivolumab.
+- The doses for each agent were specified: Cy at 200mg/m^2 IV, GVAX as two irradiated cell lines administered intradermally, and CRS-207 at 1 × 10^9 colony-forming units IV.
+- Nivolumab was administered at 3mg/kg IV every 3 weeks for 6 cycles in Arm A.
+- The cycle length was 3 weeks, with each treatment course consisting of six cycles.
+- The study was conducted in patients with previously treated metastatic pancreatic cancer, indicating it was a second-line therapy.
+- The study was a combination therapy, with no monotherapy arms.","  - ""The primary efficacy endpoint was comparison of OS in the treated patient population (Figure 2 & Table 2 ). The median OS in Arms A and B were 5.9 (95% CI, 4.7, 8.6) and 6.1 (95% CI, 3.5, 7.0) months, respectively, with a hazard ratio 0.86 (95% CI, 0.55, 1.34).""
+  - ""The 12 and 18 month OS rates for Arm A were 25% and 18%, respectively, and 19% and 12% for Arm B.""
+  - ""The median PFS was approximately 2.2 months for both arms (data not shown).""
+  - ""In the 51 patients in Arm A, there was one partial response (PR) by RECIST v.1.1 criteria accounting for a PR rate of 2% (Figure 4 , Supplementary Table 3 ). Six patients had stable disease (SD) resulting in a disease control rate (DCR) of 13.7%.""
+  - ""In the 42 patients in Arm B, one patient had a PR (2.4%) and 3 patients had SD. The DCR was 9.5%.""
+  - ""The disease control rate, 12 month OS rate, 18 month OS rate, and CA19-9 tumor marker kinetics all favored the nivolumab containing arm.""
+  - ""Treatment emergent changes in the tumor microenvironment, including expansion of functional CD8+ T cells and a decrease in in TAMs and myeloid cells, were associated with better overall survival.""
+  - ""The data supports further evaluation of combination strategies to be tested in clinical studies that will continue to collect informative biologic correlates and improve the clinical response rates, durability of response, and survival.""","  - ""(Page 22, Table 1) | Outcome                                      | Cy/GVAX/CRS-207 + NIVO (Arm A) | Cy/GVAX/CRS-207 (Arm B) | Cy/GVAX/CRS-207 + NIVO/Cy/GVAX/CRS-207 (Arm A/Arm B) |\n|----------------------------------------------|-------------------------------|------------------------|------------------------------------------------------|\n| Overall survival (months)                    |                               |                        |                                                      |""
+  - ""(Page 23, Table 1) |                                      | Cy/NIVO/GVAX+NIVO/CRS-207 | Cy/GVAX+CRS-207 | \n|--------------------------------------|---------------------------|-----------------|\n|                                      | Arm A                     | Arm B           | All Subjects |""","- The paper provides detailed information on the clinical outcomes for advanced pancreatic cancer treatment, including overall survival (OS), progression-free survival (PFS), overall response rate (ORR), and disease control rate (DCR).
+- The median OS for Arm A was 5.9 months, and for Arm B was 6.1 months, with a hazard ratio of 0.86, indicating no significant difference in OS between the two arms.
+- The median PFS was approximately 2.2 months for both arms, although specific time points are not detailed in the text.
+- The ORR was low, with only one partial response in each arm, resulting in a PR rate of 2% for Arm A and 2.4% for Arm B.
+- The DCR was 13.7% for Arm A and 9.5% for Arm B, indicating a slightly higher rate of disease control in Arm A.
+- The paper mentions that the disease control rate, 12-month OS rate, and 18-month OS rate favored the nivolumab-containing arm, suggesting some clinical benefit from the addition of nivolumab.
+- Biomarker-based subgroup analyses are not explicitly detailed in the text, but the paper mentions changes in the tumor microenvironment associated with better OS, such as increased CD8+ T cells and decreased myeloid cells.
+- Statistical significance and confidence intervals are provided for OS, with a hazard ratio of 0.86 (95% CI, 0.55, 1.34), indicating no significant difference between the two arms.","  - ""Safety analyses included all patients who received any study agents. Adverse events were as expected for the individual components of the regimens in Arms A and B.""
+  - ""Immune-related AEs not including vaccine or infusion related AEs are listed in Table 3""
+  - ""Six patients required systemic steroid intervention. The remaining nivolumab related AEs were asymptomatic laboratory investigations and 5 cases of rash.""
+  - ""Related AEs leading to study treatment discontinuation occurred in 2.2% (n=2) patients, both from Arm A.""
+  - ""There were no treatment-related deaths.""
+  - ""Serious adverse events (SAE) related to study treatment were reported in 6.5% (n=6) patients.""
+  - ""The treatment-related adverse event profile for arm B was similar to prior experience with chills, pyrexia, and fatigue being the most commonly reported(4-6).""","  - ""(Page 23, Table 1) |                                      | Cy/NIVO/GVAX+NIVO/CRS-207 |                | Cy/GVAX+CRS-207 |                |                |\n|--------------------------------------|---------------------------|----------------|-----------------|----------------|----------------|\n|                                      | Arm A                     |                | Arm B           |                | All Subjects   |""","- The paper provides a comprehensive overview of the safety profile for the treatment combinations used in the study.
+- Safety analyses included all patients who received any study agents, indicating that the data is comprehensive and not limited to specific subsets of patients.
+- The most common adverse events are listed in Table 3, which includes immune-related adverse events not related to vaccine or infusion reactions.
+- The paper mentions that six patients required systemic steroid intervention, and there were five cases of rash, indicating these as notable adverse events.
+- Treatment discontinuations due to adverse events were low, with only 2.2% of patients discontinuing treatment, all from Arm A.
+- There were no treatment-related deaths, which is a significant safety finding.
+- Serious adverse events were reported in 6.5% of patients, which is a relatively low rate.
+- The paper also notes that the adverse event profile for Arm B was similar to previous experiences with chills, pyrexia, and fatigue being common.
+- The table on page 23 provides detailed information on adverse events by grade, which is essential for understanding the safety profile.","  - ""The current study builds on prior experience with the prime boost vaccination strategy as well as combination strategies using vaccines and immune checkpoint inhibitors. This was an open-label study, in patients with previously treated metastatic pancreatic cancer, randomized to Cy/nivolumab/GVAX pancreas vaccine followed by nivolumab/CRS-207 (Arm A) or Cy/GVAX pancreas vaccine followed by CRS-207 (Arm B) (ClinicalTrials.gov ID: NCT02243371).""
+  - ""The study was reviewed by the local Institutional Review Boards, biosafety committees, the US Food and Drug Administration, and the National Institutes of Health Recombinant DNA Advisory Committee.""",,"- The study is described as an ""open-label study"" with specific treatment arms, indicating it is a clinical trial.
+- The ClinicalTrials.gov ID ""NCT02243371"" is provided, which is a unique identifier for clinical trials registered on the ClinicalTrials.gov database.
+- The mention of review by various regulatory bodies further supports that this is a clinical trial with a specific identifier.","  - ""The current study builds on prior experience with the prime boost vaccination strategy as well as combination strategies using vaccines and immune checkpoint inhibitors. This was an open-label study, in patients with previously treated metastatic pancreatic cancer, randomized to Cy/nivolumab/GVAX pancreas vaccine followed by nivolumab/CRS-207 (Arm A) or Cy/GVAX pancreas vaccine followed by CRS-207 (Arm B)""
+  - ""In Arm A, the same Cy/ GVAX/CRS-207 schedule was used plus nivolumab (3mg/kg) was administer by IV on one day prior to GVAX or CRS-207 every 3 weeks for 6 cycles.""
+  - ""In Arm B, Cy (200mg/m 2 ) was delivered intravenously (IV) one day before each GVAX treatment (first day of weeks 1 and 4). GVAX consisted of two irradiated, allogeneic, GM-CSF-secreting pancreatic adenocarcinoma cell lines (2.5 × 10 8 cells each; Johns Hopkins University, Baltimore, MD), combined and administered as six intradermal injections on the second day of weeks 1 and 4.""
+  - ""CRS-207 (1 × 10 9 colony-forming units, Aduro Biotech, Inc., Berkeley, CA), was delivered by 1-hour intravenous infusion followed by a 4-hour observation period on the first day of weeks 7, 10, 13, and 16.""",,"- The study involves two arms: Arm A and Arm B.
+- Arm A includes the components: Cyclophosphamide (Cy), Nivolumab, GVAX pancreas vaccine, and CRS-207.
+- Arm B includes the components: Cyclophosphamide (Cy), GVAX pancreas vaccine, and CRS-207.
+- The GVAX pancreas vaccine is described as allogeneic pancreatic cancer cells modified to express granulocyte-macrophage colony-stimulating factor (GM-CSF).
+- CRS-207 is an attenuated Listeria monocytogenes that expresses the tumor-associated antigen mesothelin.","  - ""The median OS in Arms A and B were 5.9 (95% CI, 4.7, 8.6) and 6.1 (95% CI, 3.5, 7.0) months, respectively, with a hazard ratio 0.86 (95% CI, 0.55, 1.34).""
+  - ""The log-rank test was used to compare OS and PFS between treatment arms. The Cox proportional hazards model and Wald statistics were used to estimate HRs and CIs.""
+  - ""Overall survival and progression-free survival were calculated from the date of randomization until the date of death and date of disease progression or death, respectively.""
+  - ""The primary endpoint was to compare OS between arms. Secondary endpoints included objective response rate (ORR), progression-free survival (PFS), safety, tumor marker kinetics and immunologic responses.""","  - ""(Page 22, Table 1) | Outcome                                      | Cy/GVAX/CRS-207 + NIVO (Arm A) | Cy/GVAX/CRS-207 (Arm B) | Cy/GVAX/CRS-207 + NIVO/Cy/GVAX/CRS-207 (Arm A/Arm B) |\n|----------------------------------------------|-------------------------------|------------------------|------------------------------------------------------|\n| Overall survival (months)                    |                               |                        |                                                      |""","- The paper discusses the primary endpoint of comparing overall survival (OS) between two arms of a clinical trial, which is relevant to the question about contrast-level data.
+- The hazard ratio (HR) is explicitly mentioned as 0.86 with a 95% confidence interval (CI) of 0.55 to 1.34, which directly answers the question about the HR and CI.
+- The paper also mentions the use of the log-rank test and Cox proportional hazards model to estimate HRs and CIs, indicating that these statistical methods were used to derive the HR and CI values.
+- The table on page 22 likely contains detailed statistical data, including HR and CI values, but since the content of the table is not provided, we rely on the text for the exact HR and CI values.","  - ""The current study builds on prior experience with the prime boost vaccination strategy as well as combination strategies using vaccines and immune checkpoint inhibitors. This was an open-label study, in patients with previously treated metastatic pancreatic cancer, randomized to Cy/nivolumab/GVAX pancreas vaccine followed by nivolumab/CRS-207 (Arm A) or Cy/GVAX pancreas vaccine followed by CRS-207 (Arm B) (ClinicalTrials.gov ID: NCT02243371).""
+  - ""A total of 96 patients across 5 US sites were enrolled and randomized. Three (all assigned to Arm B) never received treatment and were excluded from the analysis. Of the remaining 93 patients who received treatment, 51 and 42 patients were assigned to Arms A and B, respectively.""
+  - ""In the 51 patients in Arm A, there was one partial response (PR) by RECIST v.1.1 criteria accounting for a PR rate of 2% (Figure 4 , Supplementary Table 3 ). Six patients had stable disease (SD) resulting in a disease control rate (DCR) of 13.7%. In the 42 patients in Arm B, one patient had a PR (2.4%) and 3 patients had SD. The DCR was 9.5%.""
+  - ""Safety analyses included all patients who received any study agents. Adverse events were as expected for the individual components of the regimens in Arms A and B. Immune-related AEs not including vaccine or infusion related AEs are listed in Table 3""","  - ""(Page 23, Table 1) |                                      | Cy/NIVO/GVAX+NIVO/CRS-207 |                | Cy/GVAX+CRS-207 |                |                |\n|--------------------------------------|---------------------------|----------------|-----------------|----------------|----------------|\n|                                      | Arm A                     |                | Arm B           |                | All Subjects   |""
+  - ""(Page 22, Table 1) | Outcome                                      | Cy/GVAX/CRS-207 + NIVO (Arm A) | Cy/GVAX/CRS-207 (Arm B) | Cy/GVAX/CRS-207 + NIVO/Cy/GVAX/CRS-207 (Arm A/Arm B) |\n|----------------------------------------------|-------------------------------|------------------------|------------------------------------------------------|\n| Overall survival (months)                    |                               |                        |                                                      |""
+  - ""(Page 21, Table 1) | Characteristics                                      | Cy/GVAX/CRS-207 + NIVO | Cy/GVAX/CRS-207 |\n|------------------------------------------------------|------------------------|-----------------|\n|                                                      | All participants       | (Arm A)         | (Arm B)         |""
+  - ""(Page 20, Table 1) Table: Participant Characteristics\n---------------------------------------------------------------------------------------------------------------------------------\n| Characteristics                          | All participants  | Cy/GVAX/CRS-207 + NIVO (Arm A) | Cy/GVAX/CRS-207 (Arm B) |""","- The study involved two arms: Arm A (Cy/nivolumab/GVAX pancreas vaccine followed by nivolumab/CRS-207) and Arm B (Cy/GVAX pancreas vaccine followed by CRS-207).
+- The total sample size for Arm A was 51 patients, and for Arm B was 42 patients.
+- For the objective response rate (ORR), Arm A had 1 partial response (PR), and Arm B had 1 PR.
+- For adverse events, the paper provides a table listing specific adverse events, but it does not provide a raw count of patients experiencing Grade 3-4 adverse events in each arm.","  - ""The original sample size of 88 patients (44 per arm) would provide 80% power to detect a hazard ratio (HR) of 1.66, i.e. an increase in median OS from 6 to 9.96 months, assuming a 2-sided type I error rate of 15%, a uniform accrual period of 18 months, follow-up of 24 months with no loss to follow-up.""
+  - ""In October 2015, the sample size was revised to 108 patients, which provides 80% power to detect a HR of 1.66 while allowing for a two-sided type I error of 0.14278, 18 months of accrual, 12 months of followup, and a 5% loss to follow-up (i.e. an effective sample size of 102 treated patients).""
+  - ""The type I error was reduced for the final analysis to allow for type I error spending based upon O'Brien-Fleming stopping boundaries of 0.02361 at an interim efficacy analysis when approximately 50% of the expected deaths in treatment subjects had occurred (approximately 42 deaths).""
+  - ""At the time of the analyses, 87% of the expected events had occurred.""
+  - ""The median OS in Arms A and B were 5.9 (95% CI, 4.7, 8.6) and 6.1 (95% CI, 3.5, 7.0) months, respectively, with a hazard ratio 0.86 (95% CI, 0.55, 1.34).""
+  - ""The 12 and 18 month OS rates for Arm A were 25% and 18%, respectively, and 19% and 12% for Arm B.""
+  - ""The median PFS was approximately 2.2 months for both arms (data not shown).""
+  - ""Overall survival and progression-free survival were calculated from the date of randomization until the date of death and date of disease progression or death, respectively.""",,"- The paper provides information on the follow-up period and the expected events in the context of the study's design and analysis. The original plan included a follow-up of 24 months, but this was later revised to 12 months.
+- The mention of ""87% of the expected events had occurred"" suggests that the analysis was conducted when a significant portion of the expected outcomes had been observed, but it does not directly specify the median follow-up time.
+- The paper does not explicitly state the median follow-up time, which is crucial for understanding the context of the survival data and hazard ratios.
+- The tables at the end of the paper provide detailed information on patient characteristics, outcomes, and survival data, but they do not specify the median follow-up time."
+No title found,,,,,,,Final analysis of the randomized.pdf,"- Names of all drugs/agents in the combination: CM24, nivolumab, liposomal irinotecan, 5FU, LV
+- Doses and administration schedule for each agent: CM24 (20mg/kg q2wk), nivolumab (240mg/kg q2wk), chemotherapy (liposomal irinotecan/5FU/LV) q2wk
+- Route of administration: Likely IV
+- Cycle length and duration: Every two weeks (q2wk)
+- Whether tested as monotherapy vs. combination: Combination in EXP, monotherapy (chemotherapy only) in CON
+- Line of therapy: Second-line
+- Any lead-in or sequential dosing protocols: Not mentioned","- Overall response rate (ORR): 25% (EXP), 6.7% (CON)
+- Disease control rate (DCR): 62.5% (EXP), 46.7% (CON)
+- Progression-free survival (PFS): Median 3.9m (EXP), Median 2.0m (CON)
+- Overall survival (OS): Median 7.9m (EXP), Median 5.6m (CON)
+- Biomarker-based subgroup analyses:
+  - Serum CEACAM1 level of 6K-15K pg/mL: OS HR 0.21 (P 0.04), PFS HR <0.1 (P 0.003), ORR 50% vs 0%
+  - Serum CEACAM1 (5-16K pg/mL) or serum NET marker MPO (200-600 ng/mL): OS HR 0.39 (P 0.039), PFS HR 0.28 (P 0.006)","- Treatment-related adverse events by grade: Not mentioned
+- Most common adverse events (≥10% incidence): Not mentioned
+- Serious adverse events and treatment discontinuations: Not mentioned
+- Dose reductions or delays due to toxicity: Not mentioned
+- Any treatment-related deaths: Not mentioned
+- Tolerability assessment and safety conclusions: Manageable safety profile
+- Differences in safety between monotherapy vs combination arms: Not mentioned",NCT04731467,"Arm 1 Full Regimen: CM24 + nivolumab + chemotherapy (liposomal irinotecan/5FU/LV)
+Arm 1 Exact Components: CM24, nivolumab, liposomal irinotecan, 5FU, LV
+Arm 2 Full Regimen: chemotherapy only (liposomal irinotecan/5FU/LV)
+Arm 2 Exact Components: liposomal irinotecan, 5FU, LV","- Overall Survival: HR 0.81, 95% CI Lower Bound: 0.38, 95% CI Upper Bound: 1.71
+- Progression-Free Survival: HR 0.75, 95% CI Lower Bound: 0.35, 95% CI Upper Bound: 1.61
+- Subgroup Analysis (CEACAM1 6K-15K pg/mL): OS HR 0.21, 95% CI Lower Bound: 0.04, 95% CI Upper Bound: 1.06; PFS HR <0.1, 95% CI Lower Bound: 0, 95% CI Upper Bound: inf
+- Subgroup Analysis (CEACAM1 5-16K pg/mL or MPO 200-600 ng/mL): OS HR 0.39, 95% CI Lower Bound: 0.16, 95% CI Upper Bound: 0.98; PFS HR 0.28, 95% CI Lower Bound: 0.11, 95% CI Upper Bound: 0.73","- Arm 1 Total Sample Size (N): Not mentioned
+- Arm 1 Number of Events: ORR - 25% (raw count not provided), Grade 3-4 adverse events - diarrhea: 4, fatigue: 2, neutropenia: 2
+- Arm 2 Total Sample Size (N): Not mentioned
+- Arm 2 Number of Events: ORR - 6.7% (raw count not provided), Grade 3-4 adverse events - diarrhea: 1, fatigue: 0, neutropenia: 0",Not mentioned (the paper does not provide the median follow-up time),"  - ""Advanced/metastatic PDAC pts (n=31) progressing after first line treatment, were randomized to receive CM24 (20mg/kg q2wk), nivolumab (240mg/kg q2wk) and chemotherapy (liposomal irinotecan/5FU/LV) (EXP) vs chemotherapy only (CON; q2wk).""
+  - ""Subgroup analysis of pts with serum CEACAM1 level of 6K-15K pg/mL (n=11/30) demonstrates statistically significant benefits in terms of OS: HR 0.21 (P 0.04, CI 0.04-1.06), ΔOS=5.1m, PFS: HR<0.1 (P 0.003, CI 0-inf), ΔPFS=2.9m, and ORR 50% vs 0%.""
+  - ""Final analysis of EXP vs CON shows OS 7.9m vs 5.6m (Δ=2.3m) HR 0.81 (P 0.575, CI 0.38-1.71), PFS 3.9m vs 2.0m (Δ=1.9m) HR 0.75 (P 0.46, CI 0.35-1.61), ORR 25% vs 6.7%, DCR 62.5% vs 46.7%.""",,"- The treatment regimen includes CM24, nivolumab, and chemotherapy (liposomal irinotecan/5FU/LV) in the experimental group (EXP) versus chemotherapy only in the control group (CON).
+- The doses for CM24 and nivolumab are specified as 20mg/kg and 240mg/kg, respectively, administered every two weeks (q2wk).
+- The chemotherapy regimen includes liposomal irinotecan, 5FU, and LV, but specific doses are not mentioned.
+- The route of administration is not explicitly mentioned, but given the context, it is likely intravenous (IV) for all agents.
+- The cycle length is implied to be every two weeks (q2wk), as this is the administration schedule for the drugs.
+- The treatment is tested as a combination in the experimental group and as monotherapy (chemotherapy only) in the control group.
+- The line of therapy is second-line, as patients were progressing after first-line treatment.
+- There is no mention of lead-in or sequential dosing protocols.","  - ""Final analysis of EXP vs CON shows OS 7.9m vs 5.6m (Δ=2.3m) HR 0.81 (P 0.575, CI 0.38-1.71), PFS 3.9m vs 2.0m (Δ=1.9m) HR 0.75 (P 0.46, CI 0.35-1.61), ORR 25% vs 6.7%, DCR 62.5% vs 46.7%.""
+  - ""Subgroup analysis of pts with serum CEACAM1 level of 6K-15K pg/mL (n=11/30) demonstrates statistically significant benefits in terms of OS: HR 0.21 (P 0.04, CI 0.04-1.06), ΔOS=5.1m, PFS: HR<0.1 (P 0.003, CI 0-inf), ΔPFS=2.9m, and ORR 50% vs 0%.""
+  - ""Statistically significant results were also seen for 80% of the pts (24/30) with serum CEACAM1 (5-16K pg/mL) or serum NET marker MPO (200-600 ng/mL) demonstrating OS HR 0.39 (P 0.039, CI 0.16-0.98) and PFS HR 0.28 (P 0.006, CI 0.11-0.73).""",,"- The paper provides overall survival (OS) and progression-free survival (PFS) data for the experimental (EXP) and control (CON) groups, with median OS being 7.9 months for EXP and 5.6 months for CON, and median PFS being 3.9 months for EXP and 2.0 months for CON.
+- The overall response rate (ORR) is reported as 25% for EXP and 6.7% for CON, with the disease control rate (DCR) being 62.5% for EXP and 46.7% for CON.
+- Subgroup analyses based on serum CEACAM1 levels show statistically significant benefits in OS and PFS for patients with levels between 6K-15K pg/mL, with an ORR of 50% in this subgroup.
+- Another subgroup analysis based on broader CEACAM1 levels (5-16K pg/mL) or NET marker MPO levels (200-600 ng/mL) also shows statistically significant improvements in OS and PFS.
+- The paper does not provide specific data on complete response (CR), partial response (PR), stable disease (SD), or progressive disease (PD) rates, nor does it mention the duration of response.","  - ""Most frequent Grade ≥3 adverse events were diarrhea; 4 vs 1 pts, fatigue; 2 vs 0 pts and neutropenia; 2 vs 0 pts.""
+  - ""Final data show that adding CM24 and nivolumab to chemotherapy improved all efficacy parameters and had a manageable safety profile.""",,"- The paper provides information on Grade ≥3 adverse events, which are considered serious. The most frequent Grade ≥3 adverse events were diarrhea, fatigue, and neutropenia.
+- The paper mentions that the safety profile was ""manageable,"" indicating that the treatment combination was generally tolerable.
+- There is no specific mention of treatment-related adverse events by grade (1-2 vs 3-4 vs 5), serious adverse events, treatment discontinuations, dose reductions or delays due to toxicity, or treatment-related deaths.
+- The paper does not provide detailed information on the most common adverse events with a ≥10% incidence or differences in safety between monotherapy vs combination arms.","  - ""We present the final data for the randomized Phase 2 study (NCT04731467)""
+  - ""Conclusions: Final data show that adding CM24 and nivolumab to chemotherapy improved all efficacy parameters and had a manageable safety profile.""
+  - ""Final data show that adding CM24 and nivolumab to chemotherapy improved all efficacy parameters and had a manageable safety profile.""",,"- The paper mentions a ""randomized Phase 2 study"" with the identifier ""NCT04731467,"" which is a clinical trial identifier.
+- The study involves the use of CM24 and nivolumab in combination with chemotherapy, indicating a specific trial setup.
+- The paper does not provide a specific trial name or acronym, but it does provide the clinical trial identifier, which is a unique identifier for the study.","  - ""Advanced/metastatic PDAC pts (n=31) progressing after first line treatment, were randomized to receive CM24 (20mg/kg q2wk), nivolumab (240mg/kg q2wk) and chemotherapy (liposomal irinotecan/5FU/LV) (EXP) vs chemotherapy only (CON; q2wk).""
+  - ""Final data show that adding CM24 and nivolumab to chemotherapy improved all efficacy parameters and had a manageable safety profile.""",,"- The paper describes a randomized Phase 2 study where patients were divided into two arms: an experimental arm (EXP) and a control arm (CON).
+- The experimental arm (EXP) included CM24, nivolumab, and chemotherapy (specifically liposomal irinotecan/5FU/LV).
+- The control arm (CON) consisted of chemotherapy only, which is specified as liposomal irinotecan/5FU/LV.
+- Therefore, the full regimen for Arm 1 (EXP) is CM24 + nivolumab + chemotherapy (liposomal irinotecan/5FU/LV), and the exact components are CM24, nivolumab, liposomal irinotecan, 5FU, LV.
+- The full regimen for Arm 2 (CON) is chemotherapy only, which is liposomal irinotecan/5FU/LV, and the exact components are liposomal irinotecan, 5FU, LV.","  - ""Final analysis of EXP vs CON shows OS 7.9m vs 5.6m (Δ=2.3m) HR 0.81 (P 0.575, CI 0.38-1.71),""
+  - ""PFS: HR<0.1 (P 0.003, CI 0-inf),""
+  - ""PFS 3.9m vs 2.0m (Δ=1.9m) HR 0.75 (P 0.46, CI 0.35-1.61),""
+  - ""Subgroup analysis of pts with serum CEACAM1 level of 6K-15K pg/mL (n=11/30) demonstrates statistically significant benefits in terms of OS: HR 0.21 (P 0.04, CI 0.04-1.06),""
+  - ""Statistically significant results were also seen for 80% of the pts (24/30) with serum CEACAM1 (5-16K pg/mL) or serum NET marker MPO (200-600 ng/mL) demonstrating OS HR 0.39 (P 0.039, CI 0.16-0.98) and PFS HR 0.28 (P 0.006, CI 0.11-0.73).""",,"- The paper provides several sets of hazard ratios (HR) and confidence intervals (CI) for different outcomes and subgroups.
+- For Overall Survival (OS), the HR is 0.81 with a CI of 0.38-1.71 for the overall comparison between experimental and control arms.
+- For Progression-Free Survival (PFS), the HR is 0.75 with a CI of 0.35-1.61 for the overall comparison.
+- In a subgroup analysis, for OS, the HR is 0.21 with a CI of 0.04-1.06 for patients with serum CEACAM1 levels between 6K-15K pg/mL.
+- For PFS in the same subgroup, the HR is less than 0.1 with a CI of 0-inf.
+- Another subgroup analysis shows an OS HR of 0.39 with a CI of 0.16-0.98 and a PFS HR of 0.28 with a CI of 0.11-0.73 for patients with specific biomarker levels.","  - ""Most frequent Grade ≥3 adverse events were diarrhea; 4 vs 1 pts, fatigue; 2 vs 0 pts and neutropenia; 2 vs 0 pts.""
+  - ""Advanced/metastatic PDAC pts (n=31) progressing after first line treatment, were randomized to receive CM24 (20mg/kg q2wk), nivolumab (240mg/kg q2wk) and chemotherapy (liposomal irinotecan/5FU/LV) (EXP) vs chemotherapy only (CON; q2wk).""
+  - ""Final analysis of EXP vs CON shows OS 7.9m vs 5.6m (Δ=2.3m) HR 0.81 (P 0.575, CI 0.38-1.71), PFS 3.9m vs 2.0m (Δ=1.9m) HR 0.75 (P 0.46, CI 0.35-1.61), ORR 25% vs 6.7%, DCR 62.5% vs 46.7%.""",,"- The paper describes a randomized Phase 2 study with two arms: an experimental arm (EXP) and a control arm (CON). The experimental arm includes CM24, nivolumab, and chemotherapy, while the control arm includes chemotherapy only.
+- The total sample size for the experimental arm is not explicitly mentioned, but it is implied that there are 31 patients in total, and they were randomized between the two arms. However, the exact distribution between the two arms is not provided.
+- The paper provides outcomes such as Overall Survival (OS), Progression-Free Survival (PFS), Objective Response Rate (ORR), and Disease Control Rate (DCR) for both arms, but it does not provide the raw counts for these outcomes.
+- For adverse events, the paper provides the number of patients experiencing Grade ≥3 adverse events in each arm: diarrhea (4 vs 1), fatigue (2 vs 0), and neutropenia (2 vs 0).","  - ""Statistically significant results were also seen for 80% of the pts (24/30) with serum CEACAM1 (5-16K pg/mL) or serum NET marker MPO (200-600 ng/mL) demonstrating OS HR 0.39 (P 0.039, CI 0.16-0.98) and PFS HR 0.28 (P 0.006, CI 0.11-0.73).""
+  - ""Subgroup analysis of pts with serum CEACAM1 level of 6K-15K pg/mL (n=11/30) demonstrates statistically significant benefits in terms of OS: HR 0.21 (P 0.04, CI 0.04-1.06), ΔOS=5.1m, PFS: HR<0.1 (P 0.003, CI 0-inf), ΔPFS=2.9m, and ORR 50% vs 0%.""
+  - ""Final analysis of EXP vs CON shows OS 7.9m vs 5.6m (Δ=2.3m) HR 0.81 (P 0.575, CI 0.38-1.71), PFS 3.9m vs 2.0m (Δ=1.9m) HR 0.75 (P 0.46, CI 0.35-1.61), ORR 25% vs 6.7%, DCR 62.5% vs 46.7%.""",,"- The paper provides survival data in terms of overall survival (OS) and progression-free survival (PFS) for both the experimental and control groups.
+- The OS and PFS are given in months, which is a measure of time.
+- However, the paper does not explicitly mention the median follow-up time, which is the specific piece of contextual data requested.
+- The survival data and hazard ratios are provided, but without the median follow-up time, it's challenging to fully understand the context of these results."
+"Randomized phase II study of the Bruton tyrosine kinase inhibitor acalabrutinib, alone or with pembrolizumab in patients with advanced pancreatic cancer","Michael Overman, Milind Javle, Richard E Davis, Pankaj Vats, Chandan Kumar-Sinha, Lianchun Xiao, Niharika B Mettu, Edwin R Parra, Al B Benson, Charles D Lopez, Veerendra Munugalavadla, Priti Patel, Lin Tao, Sattva Neelapu, Anirban Maitra",,,,,,"Randomized phase II study of the Bruton tyrosine kinase inhibitor acalabrutinib, alone or with pembrolizumab in patients with advanced pancreatic cancer.pdf","- Names of all drugs/agents in the combination: Acalabrutinib, Pembrolizumab
+- Doses and administration schedule for each agent: Acalabrutinib 100 mg orally twice daily; Pembrolizumab 200 mg IV on day 1 of each 3-week cycle
+- Route of administration: Oral (Acalabrutinib), IV (Pembrolizumab)
+- Cycle length and duration: 3-week cycle
+- Whether tested as monotherapy vs. combination: Both monotherapy (Acalabrutinib alone) and combination (Acalabrutinib + Pembrolizumab)
+- Line of therapy: Not first-line; patients had received at least one prior systemic therapy
+- Any lead-in or sequential dosing protocols: Patients could cross over from monotherapy to combination therapy at progression","- Overall response rate (ORR): 0% for monotherapy, 7.9% for combination therapy
+- Disease control rate (DCR): 14.3% for monotherapy, 21.1% for combination therapy
+- Progression-free survival (PFS): Median 1.4 months for both arms
+- Overall survival (OS): Median 3.6 months for monotherapy, 3.8 months for combination therapy
+- Duration of response: Median 3 months for combination therapy
+- Biomarker-based subgroup analyses: Two exceptional responders were microsatellite stable with low tumor mutation burdens and no defects in the homologous DNA repair pathway
+- Statistical significance and confidence intervals: Provided for ORR and DCR","- Treatment-related adverse events by grade: Grade 3-4 events in 14.3% of monotherapy patients and 15.8% of combination therapy patients.
+- Most common adverse events: Anemia, fatigue, decreased neutrophil count, increased liver enzymes in monotherapy; decreased white blood cell count, lymphocyte count, platelet count in combination therapy.
+- Serious adverse events: 11.4% fatal serious AEs in monotherapy, 2.6% in combination therapy.
+- Treatment discontinuations: 14.3% in monotherapy, 18.4% in combination therapy.
+- Dose reductions or delays: Not explicitly mentioned.
+- Treatment-related deaths: 11.4% in monotherapy, 2.6% in combination therapy.
+- Tolerability assessment: Both treatments were relatively well tolerated.
+- Differences between monotherapy and combination arms: Similar safety profiles with slight variations in specific adverse events.","- Study Author & Year: Michael Overman, Milind Javle, Richard E Davis, Pankaj Vats, Chandan Kumar-Sinha, Lianchun Xiao, Niharika B Mettu, Edwin R Parra, Al B Benson, Charles D Lopez, Veerendra Munugalavadla, Priti Patel, Lin Tao, Sattva Neelapu, Anirban Maitra (2020)
+- Trial Name/Acronym: KEYNOTE144
+- Trial Registration Number: NCT02362048","Arm 1 Full Regimen: Acalabrutinib
+Arm 1 Exact Components: Acalabrutinib
+Arm 2 Full Regimen: Acalabrutinib + Pembrolizumab
+Arm 2 Exact Components: Acalabrutinib, Pembrolizumab",Not mentioned (the paper does not provide the exact numerical HR or CI bounds for comparing Arm 1 vs Arm 2),"- Arm 1 Total Sample Size (N): 37
+- Arm 1 Number of Events (ORR): 0
+- Arm 1 Number of Events (Grade 3-4 AEs): 5
+- Arm 2 Total Sample Size (N): 40
+- Arm 2 Number of Events (ORR): 3 (7.9% of 40)
+- Arm 2 Number of Events (Grade 3-4 AEs): 6","Median time on study: 3.4 months (monotherapy), 3.3 months (combination therapy)","  - ""This was a phase II, multicenter, open-label, randomized (1:1) clinical trial evaluating the BTK inhibitor acalabrutinib, alone (monotherapy) or in combination with the anti-PD-1 antibody pembrolizumab (combination therapy).""
+  - ""Oral acalabrutinib 100 mg twice daily was administered with or without intravenous pembrolizumab 200 mg on day 1 of each 3-week cycle.""
+  - ""Eligible patients were adults with histologically confirmed metastatic or locally advanced unresectable pancreatic ductal adenocarcinoma with an Eastern Cooperative Oncology Group Performance Status (ECOG PS) ≤1 who had received at least one prior systemic therapy.""
+  - ""Patients were randomized 1:1 to acalabrutinib 100 mg administered orally twice daily either as monotherapy or in combination with pembrolizumab 200 mg administered intravenously every 3 weeks.""
+  - ""The median number of prior therapies was 3 (range 1-6).""
+  - ""In addition, patients in the acalabrutinib monotherapy arm were allowed to cross over to combination therapy at the time of progression.""",,"- The study involved two treatment regimens: acalabrutinib as monotherapy and acalabrutinib in combination with pembrolizumab.
+- Acalabrutinib was administered orally at a dose of 100 mg twice daily.
+- Pembrolizumab was administered intravenously at a dose of 200 mg on day 1 of each 3-week cycle.
+- The study was conducted in patients with advanced pancreatic cancer who had received at least one prior systemic therapy, indicating it was not a first-line treatment.
+- Patients were allowed to cross over from monotherapy to combination therapy at the time of progression, indicating a sequential dosing protocol.","  - ""The overall response rate and disease control rate were 0% and 14.3% with monotherapy and 7.9% and 21.1% with combination therapy, respectively.""
+  - ""Median progressionfree survival was 1.4 months in both arms.""
+  - ""median OS was 3.6 months (95% CI: 2.8 to 4.9 months) and 3.8 months (95% CI: 2.5 to 4.8 months) for monotherapy and combination therapy, respectively""
+  - ""The median duration of response in the combination therapy arm was 3 months (95% CI: 3.0 to 4.2 months).""
+  - ""Of the 15 patients who crossed over from the monotherapy arm to the combination therapy arm, the overall response rate and DCR were both 0% (95% CI: 0% to 21.8%).""
+  - ""Extensive characterization of two exceptional responders demonstrated them to be microsatellite stable with low tumor mutation burdens and no defects in the homologous DNA repair pathway.""
+  - ""The overall response rate was 0% (95% CI: 0% to 10%) in the monotherapy arm and 7.9% (95% CI: 1.7% to 21.4%) in the combination therapy arm""
+  - ""The DCR was 14.3% (95% CI: 4.8% to 30%) in the monotherapy arm and 21.1% (95% CI: 9.6% to 37.3%) in the combination therapy arm.""
+  - ""A reduction in CA 19-9 of >50% was seen in 8.6% of patients in the monotherapy arm and 15.8% of patients in the combination therapy arm.""
+  - ""Median PFS was 1.4 months (95% CI: 1.3 to 1.4 months) and 1.4 months (95% CI: 1.3 to 1.5 months) and median OS was 3.6 months (95% CI: 2.8 to 4.9 months) and 3.8 months (95% CI: 2.5 to 4.8 months) for monotherapy and combination therapy, respectively""
+  - ""The median time on study was 3.4 months (range 0.8-23.8 months) for monotherapy and 3.3 months (range 0.5-11.9 months) for combination therapy.""
+  - ""the overall response rate was limited for both regimens, with responses in 0% of patients undergoing monotherapy and 7.9% of those receiving combination therapy.""
+  - ""PFS was short in both arms, as was the duration of response in the few responding patients.""",,"- The paper provides detailed clinical outcomes for patients with advanced pancreatic cancer treated with acalabrutinib alone or in combination with pembrolizumab.
+- The overall response rate (ORR) was 0% for monotherapy and 7.9% for combination therapy, indicating a limited response to both treatments.
+- The disease control rate (DCR) was slightly higher, with 14.3% for monotherapy and 21.1% for combination therapy.
+- Median progression-free survival (PFS) was short, at 1.4 months for both arms.
+- Median overall survival (OS) was also short, at 3.6 months for monotherapy and 3.8 months for combination therapy.
+- The duration of response for combination therapy was 3 months.
+- Biomarker-based subgroup analyses focused on two exceptional responders who were microsatellite stable with low tumor mutation burdens and no defects in the homologous DNA repair pathway.
+- Statistical significance and confidence intervals are provided for ORR and DCR.","  - ""Grade 3-4 treatment-related adverse events were seen in 14.3% of patients in the monotherapy arm and 15.8% of those in the combination therapy arm.""
+  - ""Acalabrutinib-related grade 3-4 AEs were observed in 14.3% of patients in the monotherapy arm and 5.3% of those in the combination therapy arm, and grade 3-4 AEs related to acalabrutinib or acalabruti-nib+pembrolizumab were observed in 15.8% of patients in the combination arm""
+  - ""The acalabrutinibrelated grade 3-4 AEs in the monotherapy arm were anemia (5.7%; two patients), fatigue, decreased neutrophil count, increased alanine aminotransferase and increased aspartate aminotransferase (2.9%; one patient each).""
+  - ""The acalabrutinib-related grade 3-4 AEs in the combination therapy arm were decreased white blood cell count, decreased lymphocyte count, decreased platelet count, lower gastrointestinal hemorrhage and increased alanine aminotransferase (2.6%; one patient each).""
+  - ""A total of four (11.4%) patients randomized to the monotherapy arm and one (2.6%) patient randomized to the combination therapy arm experienced a fatal serious AE/grade 5 event.""
+  - ""AEs resulting in study medication modification occurred in only two (5.3%) patients in the combination therapy arm and no patients in the monotherapy arm.""
+  - ""AEs leading to study drug discontinuation occurred in five (14.3%) patients and seven (18.4%) patients in the monotherapy arm and combination therapy arm, respectively""
+  - ""Acalabrutinib and pembrolizumab appeared to be relatively well tolerated in this patient population with advanced pancreatic cancer.""
+  - ""No clinically relevant safety findings were observed when acalabrutinib and pembrolizumab were combined.""","  - ""(Page 5, Table 1) |                                                   | Acalabrutinib (n=35) | Acalabrutinib+pembrolizumab (n=38) |\n|---------------------------------------------------|----------------------|------------------------------------|\n| AE (all grades)                                   | 34 (97.1)            | 38 (100.0)                         |""","- The paper provides detailed information on the safety profile of acalabrutinib monotherapy and combination therapy with pembrolizumab in patients with advanced pancreatic cancer.
+- Grade 3-4 treatment-related adverse events were observed in 14.3% of patients in the monotherapy arm and 15.8% in the combination therapy arm, indicating a similar safety profile for both treatments.
+- Specific grade 3-4 adverse events are listed for both arms, with anemia, fatigue, and liver enzyme elevations being notable in the monotherapy arm, and decreased white blood cell count, lymphocyte count, and platelet count in the combination arm.
+- Serious adverse events leading to treatment discontinuation were reported in both arms, with a slightly higher incidence in the combination therapy arm.
+- Fatal serious adverse events were reported in both arms, with a higher incidence in the monotherapy arm.
+- The paper concludes that both treatments were relatively well tolerated, with no significant differences in safety findings between the monotherapy and combination therapy arms.","  - ""This was a phase II, multicenter, open-label, randomized clinical trial evaluating acalabrutinib monotherapy and the combination of acalabrutinib and pembrolizumab in patients with advanced or metastatic pancreatic cancer (KEYNOTE144).""
+  - ""trial registration number NCT02362048.""
+  - ""The trial was conducted at 12 sites in the USA between June 2, 2015 and March 27, 2017.""",,"- The paper mentions that the trial was conducted between June 2, 2015, and March 27, 2017, which provides a time frame for the study.
+- The trial registration number NCT02362048 is explicitly mentioned, which is a unique identifier for the study.
+- The trial is described as a phase II, multicenter, open-label, randomized clinical trial, which provides details about the study design.
+- The trial is referred to as ""KEYNOTE144,"" which is likely the trial name or acronym.","  - ""Patients were randomized 1:1 to acalabrutinib 100 mg administered orally twice daily either as monotherapy or in combination with pembrolizumab 200 mg administered intravenously every 3 weeks.""
+  - ""This was a phase II, multicenter, open-label, randomized (1:1) clinical trial evaluating the BTK inhibitor acalabrutinib, alone (monotherapy) or in combination with the anti-PD-1 antibody pembrolizumab (combination therapy).""
+  - ""Oral acalabrutinib 100 mg twice daily was administered with or without intravenous pembrolizumab 200 mg on day 1 of each 3-week cycle.""",,"- The paper describes a clinical trial involving two arms: one with acalabrutinib alone (monotherapy) and another with acalabrutinib in combination with pembrolizumab (combination therapy).
+- The components of the monotherapy arm are clearly stated as acalabrutinib.
+- The components of the combination therapy arm are acalabrutinib and pembrolizumab.
+- Therefore, the CNMA Component Mapping for Arm 1 (monotherapy) is acalabrutinib, and for Arm 2 (combination therapy) is acalabrutinib, pembrolizumab.","  - ""The primary end point was safety. The secondary end points were overall response rate (defined as partial response or complete response based on modified RECIST V.1.1 criteria), disease control rate (DCR; defined as stable disease, partial response or complete response based on modified RECIST V.1.1 criteria), PFS, overall survival (OS) and change in cancer antigen (CA) 19-9.""
+  - ""Median progressionfree survival was 1.4 months in both arms.""
+  - ""median OS was 3.6 months (95% CI: 2.8 to 4.9 months) and 3.8 months (95% CI: 2.5 to 4.8 months) for monotherapy and combination therapy, respectively""
+  - ""nivariable Cox models were fitted to evaluate the association between OS or PFS with baseline markers or their area under the curve over the first 4 weeks (AUCwk4) of therapy.""
+  - ""No multiple testing adjustment was performed for p values. All p values presented are two-sided and statistical significance is p≤0.05.""","  - ""(Page 5, Table 1) |                                                   | Acalabrutinib (n=35) | Acalabrutinib+pembrolizumab (n=38) |\n|---------------------------------------------------|----------------------|------------------------------------|\n| AE (all grades)                                   | 34 (97.1)            | 38 (100.0)                         |""","- The paper provides information on the primary and secondary endpoints, which include safety, overall response rate, disease control rate, progression-free survival (PFS), overall survival (OS), and changes in cancer antigen (CA) 19-9.
+- The median PFS is mentioned as 1.4 months for both arms, but there is no specific mention of a hazard ratio (HR) or confidence intervals (CI) for PFS or OS in the text.
+- The paper does mention the use of univariable Cox models to evaluate associations between OS or PFS and baseline markers, but it does not provide specific HR or CI values.
+- The table on page 5 is likely to contain detailed data on adverse events rather than contrast-level data for survival outcomes.
+- The paper does not provide the exact numerical HR or CI bounds for comparing Arm 1 vs Arm 2, which are necessary for contrast-level data.","  - ""A total of 77 patients were enrolled (37 monotherapy; 40 combination therapy)""
+  - ""The overall response rate and disease control rate were 0% and 14.3% with monotherapy and 7.9% and 21.1% with combination therapy, respectively.""
+  - ""Grade 3-4 treatment-related adverse events were seen in 14.3% of patients in the monotherapy arm and 15.8% of those in the combination therapy arm.""","  - ""(Page 4, Table 1) |                                      | Acalabrutinib (n=35) | Acalabrutinib+pembrolizumab (n=38) | Total (n=73) |\n|--------------------------------------|----------------------|------------------------------------|--------------|\n| Age (years); median (range)          | 64 (44–78)           | 64 (30–80)                         | 64 (30–80)   |""
+  - ""(Page 5, Table 1) |                                                   | Acalabrutinib (n=35) | Acalabrutinib+pembrolizumab (n=38) |\n|---------------------------------------------------|----------------------|------------------------------------|\n| AE (all grades)                                   | 34 (97.1)            | 38 (100.0)                         |""","- The paper provides the total sample size for each arm: 37 patients in the monotherapy arm and 40 patients in the combination therapy arm.
+- The overall response rate (ORR) is given as 0% for monotherapy and 7.9% for combination therapy. This means that in the monotherapy arm, 0 out of 37 patients responded, and in the combination therapy arm, 7.9% of 40 patients responded.
+- The disease control rate (DCR) is provided as 14.3% for monotherapy and 21.1% for combination therapy. This translates to 5 patients out of 37 in the monotherapy arm and 8 patients out of 40 in the combination therapy arm.
+- Grade 3-4 treatment-related adverse events are reported as occurring in 14.3% of patients in the monotherapy arm and 15.8% of patients in the combination therapy arm. This means that in the monotherapy arm, 5 out of 37 patients experienced Grade 3-4 adverse events, and in the combination therapy arm, 6 out of 40 patients experienced these events.","  - ""The median time on study was 3.4 months (range 0.8-23.8 months) for monotherapy and 3.3 months (range 0.5-11.9 months) for combination therapy.""
+  - ""Median progressionfree survival was 1.4 months in both arms.""",,"- The question asks for the ""Contextual Data"" specifically regarding the median follow-up time, which is crucial for understanding hazard ratios and survival data.
+- The paper provides information on the median time patients were on the study, which can be considered as a proxy for follow-up time. This is given as 3.4 months for monotherapy and 3.3 months for combination therapy.
+- Additionally, the paper provides median progression-free survival and overall survival times, which are also relevant to understanding the duration of observation.
+- However, the specific term ""median follow-up time"" is not explicitly mentioned in the paper. Instead, the median time on study is provided, which is the closest relevant information."

@@ -1,0 +1,8 @@
+﻿studlab,treat1,treat2,treat3,n1,n2,n3,Hazard Ratio (OS),95% CI Lower Bound(OS),95% CI Upper Bound(OS),HR OS t3 vs t1,Lower CI t3 vs t1,Upper CI t3 vs t1
+Knox 2025,Gemcitabine+nab-paclitaxel,mFFX,,80,80,,1.57,1.08,2.28,,,
+Westphalen 2023,Gemcitabine+nab-paclitaxel,nal-IRI+5-FU/LV,Sequential_NAPOLI_FOLFOX,91,91,92,1.178,,,0.879,,
+Le 2019,single-agent chemotherapy,CRS-207,Cy/GVAX+CRS-207,72,68,73,0.917,0.65,1.294,1.171,0.836,1.641
+Le 2015,Cy/GVAX,Cy/GVAX+CRS-207,,29,61,,0.59,0.36,0.97,,,
+Heinemann 2006,Gemcitabine,Gemcitabine+Cisplatin,,97,98,,0.8,,,,,
+Colucci 2010,Gemcitabine,Gemcitabine+Cisplatin,,199,201,,1.1,0.89,1.35,,,
+Wang-Gillam 2019,5-FU/LV,nal-IRI+5-FU/LV,nal-IRI,119,117,151,0.75,0.57,0.99,1.07,0.84,1.36
